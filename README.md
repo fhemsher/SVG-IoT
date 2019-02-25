@@ -9,6 +9,8 @@ To run the application, in **localhost** select the index.htm file.
 
 You may then create/save/edit SVG Iot/SCADA drawings.
 
+![](http://svg-iot.com/Images/iot.png)
+
 To preview how this application works go to: http://svg-iot.com
 
 NOTE:To store your svg images for the Component and Schematic libraries, the Windows IIS must have 
