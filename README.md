@@ -1,4 +1,4 @@
-# SVG-Technical
+# SVG-IoT
 Windows 10 Stand-Alone Application: Create SVG IoT/SCADA Drawings
 
 **Dowload ZIP** folder, then create a new site under inetpub/wwwroot on your computer.
