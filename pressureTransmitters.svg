@@ -1,0 +1,378 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="schematicSVG" width="850" height="930" viewBox="0 0 850 930" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+
+    <style type="text/css">
+
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+.grid path {
+  stroke-width: 0;
+}
+.gridVFD line {
+  stroke: black;
+  stroke-opacity: 0.5;
+}
+.gridVFD path {
+  stroke-width: 0;
+}
+.gaugeLine {
+    fill: none;
+    stroke: black;
+    stroke-width: 1;
+}
+.axisRed line{
+  stroke: red;
+}
+.axisRed path{
+  stroke: red;
+}
+.axisBlue line{
+  stroke: blue;
+}
+.axisBlue path{
+  stroke: blue;
+}
+.axisPurple line{
+  stroke: purple;
+}
+.axisPurple path{
+  stroke: purple;
+}
+.chartLineLeft {
+    fill: none;
+    stroke: DarkViolet;
+    stroke-width: 3;
+}
+.chartLineRight2 {
+    fill: none;
+    stroke: red;
+    stroke-width: 3;
+}
+.chartLineRight1 {
+    fill: none;
+    stroke: blue;
+    stroke-width: 3;
+}
+.chartLineCI {
+    fill: none;
+    stroke: purple;
+    stroke-width: 3;
+}
+.chartLineVAC {
+    fill: none;
+    stroke: red;
+    stroke-width: 3;
+}
+.chartLineHZ {
+    fill: none;
+    stroke: blue;
+    stroke-width: 3;
+}
+.axisred line{
+  stroke: red;
+}
+.axisred path{
+  stroke: red;
+}
+.axisBlue line{
+  stroke: blue;
+}
+.axisBlue path{
+  stroke: blue;
+}
+.axisDarkViolet line{
+  stroke: DarkViolet;
+}
+.axisDarkViolet path{
+  stroke: DarkViolet;
+}
+
+</style>
+
+<defs id="pilotLightDefs">
+<radialGradient id="blueGradient" cx="50%" cy="50%" r="75%">
+<stop offset="0%" stop-color="rgb(0,0,255)" stop-opacity="1"/>
+<stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/>
+</radialGradient>
+<radialGradient id="greenGradient" cx="50%" cy="50%" r="75%">
+<stop offset="0%" stop-color="rgb(0,191,0)" stop-opacity="1"/>
+<stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/>
+</radialGradient>
+<radialGradient id="greyGradient" cx="50%" cy="50%" r="75%">
+<stop offset="0%" stop-color="rgb(255,255,255)" stop-opacity="1"/>
+<stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/>
+</radialGradient>
+<radialGradient id="redGradient" cx="50%" cy="50%" r="75%">
+<stop offset="0%" stop-color="rgb(255,0,0)" stop-opacity="1"/>
+<stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/>
+</radialGradient>
+<radialGradient id="violetGradient" cx="50%" cy="50%" r="75%">
+<stop offset="0%" stop-color="rgb(219,0,219)" stop-opacity="1"/>
+<stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/>
+</radialGradient>
+<radialGradient id="aquaGradient" cx="50%" cy="50%" r="75%">
+<stop offset="0%" stop-color="aqua" stop-opacity="1"/>
+<stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/>
+</radialGradient>
+</defs>
+<defs id="arrowDefs"/>
+<defs id="defsPattern">
+<pattern id="ssmoz" patternUnits="userSpaceOnUse" width="8" height="8" addTo="fill">
+<path d="M 2 2 l 4 0 l 0 4 l -4 0 Z" fill="transparent" stroke-width="1.0" shape-rendering="auto" stroke="#0000FF" stroke-linecap="square"/>
+</pattern>
+<pattern id="iawnw" patternUnits="userSpaceOnUse" width="4" height="4" addTo="fill">
+<path d="M 2, 0 l 0, 4" stroke-width="1.0" shape-rendering="auto" stroke="#FF4500" stroke-linecap="square"/>
+</pattern>
+<pattern id="mosrq" patternUnits="userSpaceOnUse" width="5" height="5" addTo="fill">
+<path d="M 1.25,1.25l2.5,2.5M1.25,3.75l2.5,-2.5" fill="transparent" stroke-width="1.0" shape-rendering="auto" stroke="#FF4500" stroke-linecap="square"/>
+</pattern>
+<pattern id="wuacm" patternUnits="userSpaceOnUse" width="5" height="5" addTo="fill">
+<path d="M 1.25 1.25 l 2.5 0 l 0 2.5 l -2.5 0 Z" fill="transparent" stroke-width="1.0" shape-rendering="auto" stroke="#FF4500" stroke-linecap="square"/>
+</pattern>
+<pattern id="fzsry" patternUnits="userSpaceOnUse" width="5" height="5" addTo="fill">
+<path d="M 0,0 l 5,5 M -1.25,3.75 l 2.5,2.5
+M 3.75,-1.25 l 2.5,2.5" stroke-width="1.0" shape-rendering="auto" stroke="#000000" stroke-linecap="square"/>
+</pattern>
+<pattern id="dfxle" patternUnits="userSpaceOnUse" width="8" height="8" addTo="fill">
+<path d="M 4, 0 l 0, 8" stroke-width="1.0" shape-rendering="auto" stroke="#0000FF" stroke-linecap="square"/>
+<path d="M 0,4 l 8,0" stroke-width="1.0" shape-rendering="auto" stroke="#0000FF" stroke-linecap="square"/>
+</pattern>
+<pattern id="jxizt" patternUnits="userSpaceOnUse" width="8" height="8" addTo="fill">
+<path d="M 0 4 c 1 -2 , 3 -2 , 4 0
+c 1 2 , 3 2 , 4 0 M -4 4
+c 1 2 , 3 2 , 4 0 M 8 4
+c 1 -2 , 3 -2 , 4 0" fill="transparent" stroke-width="1.0" shape-rendering="auto" stroke="#0000FF" stroke-linecap="square"/>
+</pattern>
+<pattern id="dwaog" patternUnits="userSpaceOnUse" width="8" height="8" addTo="fill">
+<path d="M 0,8 l 8,-8 M -2,2 l 4,-4
+M 6,10 l 4,-4" stroke-width="1.0" shape-rendering="auto" stroke="#FF4500" stroke-linecap="square"/>
+<path d="M 0,-2 l 8,4M 0,2 l 8,4
+M 0,6 l 8,4" stroke-width="1.0" shape-rendering="auto" stroke="#FF4500" stroke-linecap="square"/>
+</pattern>
+<pattern id="wmpev" patternUnits="userSpaceOnUse" width="8" height="8" addTo="fill">
+<path d="M 0,8 l 8,-8 M -2,2 l 4,-4
+M 6,10 l 4,-4" stroke-width="2.0" shape-rendering="auto" stroke="#FF4500" stroke-linecap="square"/>
+<path d="M 0,-2 l 8,4M 0,2 l 8,4
+M 0,6 l 8,4" stroke-width="2.0" shape-rendering="auto" stroke="#FF4500" stroke-linecap="square"/>
+</pattern>
+</defs>
+<defs id="defsGradient"/>
+<defs id="defsShadow">
+<filter id="drop-shadow" height="150%" width="150%">
+<feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur"/>
+<feOffset in="blur" dx="5" dy="5" result="offsetBlur"/>
+<feMerge>
+<feMergeNode in="offsetBlur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
+<defs id="pipe3dDefs">
+<filter id="pipe3D">
+<feFlood flood-color="black"/>
+<feComposite operator="out" in2="SourceGraphic"/>
+<feGaussianBlur stdDeviation="6"/>
+<feComposite operator="atop" in2="SourceGraphic"/>
+</filter>
+</defs>
+<defs id="alarmWarningTrendDefs">
+<linearGradient id="warningMaxTrend" x1="84%" y1="24%" x2="82%" y2="72%">
+<stop offset="0%" stop-color="#FF0000" stop-opacity="1"/>
+<stop offset="100%" stop-color="#FFA500" stop-opacity="1" stop-offset="100%"/>
+</linearGradient>
+<linearGradient id="warningMinTrend" x1="84%" y1="24%" x2="82%" y2="72%">
+<stop offset="0%" stop-color="#FFA500" stop-opacity="1" stop-offset="0%"/>
+<stop offset="100%" stop-color="#FF0000" stop-opacity="1"/>
+</linearGradient>
+</defs>
+<defs id="alarmWarningBarDefs">
+<linearGradient id="warningMaxBar" y1="84%" x1="24%" y2="82%" x2="72%">
+<stop offset="0" stop-color="#FFA500" stop-opacity="1"/>
+<stop offset="100%" stop-color="#FF0000" stop-opacity="1" stop-offset="100%"/>
+</linearGradient>
+<linearGradient id="warningMinBar" y2="84%" x2="24%" y1="82%" x1="72%">
+<stop offset="0" stop-color="#FFA500" stop-opacity="1"/>
+<stop offset="100%" stop-color="#FF0000" stop-opacity="1" stop-offset="100%"/>
+</linearGradient>
+</defs>
+<defs id="alarmWarningTankLevelDefs">
+<linearGradient id="warningMaxTankLevel" x1="84%" y1="24%" x2="82%" y2="72%">
+<stop offset="0%" stop-color="#FF0000" stop-opacity="1"/>
+<stop offset="100%" stop-color="#FFA500" stop-opacity="1" stop-offset="100%"/>
+</linearGradient>
+<linearGradient id="warningMinTankLevel" x1="84%" y1="24%" x2="82%" y2="72%">
+<stop offset="0%" stop-color="#FFA500" stop-opacity="1" stop-offset="0%"/>
+<stop offset="100%" stop-color="#FF0000" stop-opacity="1"/>
+</linearGradient>
+</defs>
+<g id="zoomG">
+<g shape-rendering="geometricPrecision" id="domAddProcessG" class="noselect"/>
+<g id="topG">
+<g shape-rendering="geometricPrecision" id="domAddPathG"/>
+<g shape-rendering="geometricPrecision" id="domAddElemG" text-rendering="geometricPrecision">
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="80" height="65" rx="10" ry="10" rotateAngle="0" transform="translate(290 120)"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="20" height="34" rotateAngle="0" transform="matrix(1 0 0 1 322 189)"/>
+<circle stroke="#000000" stroke-width="2" fill="white" fill-opacity="0" transform="matrix(1 0 0 1 332 281)" r="58"/>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0.34" fill="#000000" transform="matrix(3.60822e-16 1 -1 3.60822e-16 289 246)" rotateAngle="0" filter="null">
+Reference</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0.8" fill="#000000" transform="matrix(1 0 0 1 304 171)" rotateAngle="0" filter="null">
+PT</text>
+<text font-family="Arial" font-size="30" font-weight="normal" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 268 364)" rotateAngle="0">
+Capacitive</text>
+<ellipse stroke="#000000" stroke-width="2" fill="#00FF00" transform="matrix(1 0 0 1 332 279)" rx="27" ry="59" rotateAngle="0" fill-opacity="0.1"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="20" height="20" rotateAngle="0" transform="matrix(1 0 0 1 257 272)"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="20" height="20" rotateAngle="0" transform="matrix(1 0 0 1 386 272)"/>
+<ellipse stroke="#000000" stroke-width="2" fill="#00FF00" transform="matrix(1 0 0 1 362 806)" rx="27" ry="59" rotateAngle="0" fill-opacity="0.1"/>
+<ellipse stroke="#000000" stroke-width="2" fill="#00FF00" transform="matrix(1 0 0 1 605 796)" rx="27" ry="59" rotateAngle="0" fill-opacity="0.1"/>
+<ellipse stroke="#000000" stroke-width="2" fill="#00FF00" transform="matrix(1 0 0 1 623 506)" rx="27" ry="59" rotateAngle="0" fill-opacity="0.1"/>
+<rect fill="url(#iawnw)" stroke="none" stroke-width="2" x="0" y="0" width="25" height="96" transform="matrix(1 0 0 1 611 455)" rotateAngle="0" fill-opacity="null"/>
+<text font-family="Arial" font-size="35" font-weight="normal" font-style="normal" stroke="none" stroke-width="0.7000000000000001" fill="#000000" transform="matrix(1 0 0 1 578 595)" rotateAngle="0" filter="null">
+Optical</text>
+<ellipse stroke="#0000FF" stroke-width="2" fill="#0000FF" fill-opacity="1.0" transform="matrix(1 0 0 1 627 791)" rx="6" ry="24" rotateAngle="0"/>
+<rect fill="#0000FF" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" x="0" y="0" width="8" height="67" transform="matrix(1 0 0 1 581 764)" rotateAngle="0" rx="10" ry="10"/>
+<rect fill="url(#mosrq)" stroke="#FF0000" stroke-width="1" x="0" y="0" width="15" height="97" transform="matrix(1 0 0 1 598 750)" rotateAngle="0" fill-opacity="null"/>
+<rect fill="#0000FF" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" x="0" y="0" width="10" height="72" rotateAngle="0" transform="matrix(1 0 0 1 313 246)" rx="10" ry="10"/>
+<rect fill="#0000FF" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" x="0" y="0" width="10" height="72" rotateAngle="0" transform="matrix(1 0 0 1 340 246)" rx="10" ry="10"/>
+<text font-family="Arial" font-size="35" font-weight="normal" font-style="normal" stroke="none" stroke-width="0.7000000000000001" fill="#000000" transform="matrix(1 0 0 1 531 881)" rotateAngle="0" filter="null">
+Ionization</text>
+<rect fill="#FF0000" fill-opacity="1.0" stroke="none" stroke-width="2" x="0" y="0" width="8" height="94" rotateAngle="0" transform="matrix(1 0 0 1 373 759)" rx="10" ry="10"/>
+<rect fill="#0000FF" fill-opacity="1.0" stroke="none" stroke-width="2" x="0" y="0" width="7" height="19" rotateAngle="0" transform="matrix(1 0 0 1 366 775)"/>
+<rect fill="#FF0000" fill-opacity="1.0" stroke="none" stroke-width="2" x="0" y="0" width="7" height="19" rotateAngle="0" transform="matrix(1 0 0 1 368 801)"/>
+<rect fill="#0000FF" fill-opacity="1.0" stroke="none" stroke-width="2" x="0" y="0" width="7" height="19" rotateAngle="0" transform="matrix(1 0 0 1 369 821)"/>
+<rect fill="#0000FF" fill-opacity="1.0" stroke="none" stroke-width="2" x="0" y="0" width="8" height="94" rotateAngle="0" transform="matrix(1 0 0 1 340 759)" rx="10" ry="10"/>
+<text font-family="Arial" font-size="35" font-weight="normal" font-style="normal" stroke="none" stroke-width="0.7000000000000001" fill="#000000" transform="matrix(1 0 0 1 297 891)" rotateAngle="0" filter="null">
+Thermal</text>
+<ellipse stroke="#000000" stroke-width="2" fill="url(#jxizt)" transform="matrix(1 0 0 1 374 534)" rx="27" ry="59" rotateAngle="0"/>
+<ellipse stroke="#000000" stroke-width="2" fill="url(#dfxle)" transform="matrix(1 0 0 1 604 235)" rx="27" ry="59" rotateAngle="0"/>
+<ellipse stroke="#000000" stroke-width="2" fill="url(#ssmoz)" transform="matrix(1 0 0 1 115 808)" rx="27" ry="59" rotateAngle="0"/>
+<ellipse stroke="#000000" stroke-width="2" fill="#00FF00" transform="matrix(1 0 0 1 111 522)" rx="27" ry="59" rotateAngle="0" fill-opacity="0.1"/>
+<ellipse stroke="#000000" stroke-width="2" fill="#00FF00" transform="matrix(1 0 0 1 102 254)" rx="27" ry="59" rotateAngle="0" fill-opacity="0.1"/>
+<text font-family="Arial" font-size="35" font-weight="normal" font-style="normal" stroke="none" stroke-width="0.7000000000000001" fill="#000000" transform="matrix(1 0 0 1 20 337)" rotateAngle="0" filter="null">
+Resonant</text>
+<rect fill="#0000FF" fill-opacity="1.0" stroke="none" stroke-width="2" x="0" y="0" width="11" height="76" transform="matrix(1 0 0 1 113 218)" rotateAngle="0" rx="10" ry="10"/>
+<rect fill="#0000FF" fill-opacity="1.0" stroke="none" stroke-width="2" x="0" y="0" width="20" height="20" transform="matrix(1 0 0 1 97 245)" rotateAngle="0"/>
+<ellipse stroke="#FF0000" stroke-width="1" fill="url(#wuacm)" transform="matrix(1 0 0 1 85 255)" rx="11" ry="33" rotateAngle="0"/>
+<rect fill="url(#wmpev)" stroke="#FF0000" stroke-width="1" x="0" y="0" width="33" height="61" transform="matrix(1 0 0 1 88 492)" rotateAngle="0"  fill-opacity="null"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="38" height="18" transform="matrix(1 0 0 1 86 518)" rotateAngle="0"/>
+<rect fill="#0000FF" fill-opacity="1.0" stroke="none" stroke-width="2" x="0" y="0" width="47" height="11" transform="matrix(1 0 0 1 85 522)" rotateAngle="0"/>
+<rect fill="#4169E1" fill-opacity="1.0" stroke="none" stroke-width="2" x="0" y="0" width="6" height="20" transform="matrix(1 0 0 1 129 518)" rotateAngle="0"/>
+<text font-family="Arial" font-size="35" font-weight="normal" font-style="normal" stroke="none" stroke-width="0.7000000000000001" fill="#000000" transform="matrix(1 0 0 1 12 617)" rotateAngle="0" filter="null">
+Electromagnetic</text>
+<text font-family="Arial" font-size="35" font-weight="normal" font-style="normal" stroke="none" stroke-width="0.7000000000000001" fill="#000000" transform="matrix(1 0 0 1 25 898)" rotateAngle="0" filter="null">
+Piezoelectric</text>
+<text font-family="Arial" font-size="35" font-weight="normal" font-style="normal" stroke="none" stroke-width="0.7000000000000001" fill="#000000" transform="matrix(1 0 0 1 515 311)" rotateAngle="0" filter="null">
+Piezorective</text>
+<text font-family="Arial" font-size="35" font-weight="normal" font-style="normal" stroke="none" stroke-width="0.7000000000000001" fill="#000000" transform="matrix(1 0 0 1 287 615)" rotateAngle="0" filter="null">
+Potentiometric</text>
+<circle stroke="#000000" stroke-width="2" fill="white" fill-opacity="0" transform="matrix(1 0 0 1 109 522)" r="58"/>
+<circle stroke="#000000" stroke-width="2" fill="white" fill-opacity="0" transform="matrix(1 0 0 1 114 808)" r="58"/>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(3.60822e-16 1 -1 3.60822e-16 72 770)" rotateAngle="89.99999999999999">
+Reference</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(3.60822e-16 1 -1 3.60822e-16 364 246)" rotateAngle="89.99999999999999">
+Measured</text>
+<ellipse stroke="#000000" stroke-width="2" fill="#00FF00" transform="matrix(1 0 0 1 374 531)" rx="27" ry="59" rotateAngle="0" fill-opacity="0.1"/>
+<ellipse stroke="#000000" stroke-width="2" fill="#00FF00" transform="matrix(1 0 0 1 604 232)" rx="27" ry="59" rotateAngle="0" fill-opacity="0.1"/>
+<ellipse stroke="#000000" stroke-width="2" fill="#00FF00" transform="matrix(1 0 0 1 114 808)" rx="27" ry="59" rotateAngle="0" fill-opacity="0.1"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="20" height="34" rotateAngle="0" transform="matrix(1 0 0 1 105 716)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="80" height="65" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 75 650)"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="20" height="20" rotateAngle="0" transform="matrix(1 0 0 1 168 801)"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="20" height="20" rotateAngle="0" transform="matrix(1 0 0 1 39 798)"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="20" height="34" rotateAngle="0" transform="matrix(1 0 0 1 101 430)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="80" height="65" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 69 363)"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="20" height="20" rotateAngle="0" transform="matrix(1 0 0 1 162 512)"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="20" height="20" rotateAngle="0" transform="matrix(1 0 0 1 34 513)"/>
+<circle stroke="#000000" stroke-width="2" fill="white" fill-opacity="0" transform="matrix(1 0 0 1 101 255)" r="58"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="20" height="34" rotateAngle="0" transform="matrix(1 0 0 1 92 164)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="80" height="65" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 63 98)"/>
+<circle stroke="#000000" stroke-width="2" fill="white" fill-opacity="0" transform="matrix(1 0 0 1 362 807)" r="58"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="20" height="34" rotateAngle="0" transform="matrix(1 0 0 1 354 716)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="80" height="65" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 325 650)"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="20" height="20" rotateAngle="0" transform="matrix(1 0 0 1 416 798)"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="20" height="20" rotateAngle="0" transform="matrix(1 0 0 1 283 796)"/>
+<circle stroke="#000000" stroke-width="2" fill="white" fill-opacity="0" transform="matrix(1 0 0 1 375 531)" r="58"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="20" height="34" rotateAngle="0" transform="matrix(1 0 0 1 365 440)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="80" height="65" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 334 376)"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="20" height="20" rotateAngle="0" transform="matrix(1 0 0 1 296 524)"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="20" height="20" rotateAngle="0" transform="matrix(1 0 0 1 433 527)"/>
+<circle stroke="#000000" stroke-width="2" fill="white" fill-opacity="0" transform="matrix(1 0 0 1 605 797)" r="58"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="20" height="34" rotateAngle="0" transform="matrix(1 0 0 1 595 702)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="80" height="65" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 563 635)"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="20" height="20" rotateAngle="0" transform="matrix(1 0 0 1 528 788)"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="20" height="20" rotateAngle="0" transform="matrix(1 0 0 1 662 782)"/>
+<circle stroke="#000000" stroke-width="2" fill="white" fill-opacity="0" transform="matrix(1 0 0 1 621 506)" r="58"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="20" height="34" rotateAngle="0" transform="matrix(1 0 0 1 607 414)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="80" height="65" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 575 349)"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="20" height="20" rotateAngle="0" transform="matrix(1 0 0 1 543 502)"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="20" height="20" rotateAngle="0" transform="matrix(1 0 0 1 676 501)"/>
+<circle stroke="#000000" stroke-width="2" fill="white" fill-opacity="0" transform="matrix(1 0 0 1 602 232)" r="58"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="20" height="34" rotateAngle="0" transform="matrix(1 0 0 1 593 140)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="80" height="65" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 561 75)"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="20" height="20" rotateAngle="0" transform="matrix(1 0 0 1 523 228)"/>
+<rect fill="#FFFFFF" fill-opacity="1.0" stroke="#000000" stroke-width="1" x="0" y="0" width="20" height="20" rotateAngle="0" transform="matrix(1 0 0 1 661 225)"/>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 83 137)" rotateAngle="0">
+PT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 579 114)" rotateAngle="0">
+PT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 89 405)" rotateAngle="0">
+PT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 349 415)" rotateAngle="0">
+PT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 599 393)" rotateAngle="0">
+PT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 90 682)" rotateAngle="0">
+PT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 341 681)" rotateAngle="0">
+PT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 579 671)" rotateAngle="0">
+PT</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 141 199)" rotateAngle="0">
+Reference</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 159 210)" rotateAngle="0">
+Measured</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 666 176)" rotateAngle="0">
+Reference</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 674 197)" rotateAngle="0">
+Measured</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 179 493)" rotateAngle="0">
+Reference</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 199 511)" rotateAngle="0">
+Measured</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 423 478)" rotateAngle="0">
+Reference</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 439 502)" rotateAngle="0">
+Measured</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 682 463)" rotateAngle="0">
+Reference</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 690 481)" rotateAngle="0">
+Measured</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 173 761)" rotateAngle="0">
+Reference</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 184 777)" rotateAngle="0">
+Measured</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 417 753)" rotateAngle="0">
+Reference</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 426 771)" rotateAngle="0">
+Measured</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 658 743)" rotateAngle="0">
+Reference</text>
+<text font-family="Times New Roman" font-size="17" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 670 764)" rotateAngle="0">
+Measured</text>
+</g>
+</g>
+<g shape-rendering="geometricPrecision" id="domAddSymbolG"/>
+<g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" id="domAddIconG" class="noselect">
+<text font-size="40" font-family="Arial Unicode MS" stroke-width="0.8" fill="#0000FF" stroke="black" x="-17.8203125" y="13.5" transform="matrix(1 0 0 1 620 451)">
+⯋</text>
+<text font-size="40" font-family="Arial Unicode MS" stroke-width="0.8" fill="#0000FF" stroke="black" x="-17.8203125" y="13.5" transform="matrix(1 0 0 1 624 562)">
+⯊</text>
+<text font-size="50" font-family="Arial Unicode MS" stroke-width="1" fill="#00BFFF" stroke="black" x="-21.53125" y="17" transform="matrix(1 0 0 1 632 511)">
+◅</text>
+</g>
+<g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" id="domAddComponentG" class="noselect"/>
+<g shape-rendering="geometricPrecision" text-rendering="geometricPrecision" id="domAddHmiG"/>
+</g>
+</svg>
+

@@ -1,0 +1,418 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="schematicSVG" width="830" height="930" viewBox="0 0 830 930" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+
+    <style type="text/css">
+
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+.grid path {
+  stroke-width: 0;
+}
+.gridVFD line {
+  stroke: black;
+  stroke-opacity: 0.5;
+}
+.gridVFD path {
+  stroke-width: 0;
+}
+.gaugeLine {
+    fill: none;
+    stroke: black;
+    stroke-width: 1;
+}
+.axisRed line{
+  stroke: red;
+}
+.axisRed path{
+  stroke: red;
+}
+.axisBlue line{
+  stroke: blue;
+}
+.axisBlue path{
+  stroke: blue;
+}
+.axisPurple line{
+  stroke: purple;
+}
+.axisPurple path{
+  stroke: purple;
+}
+.chartLineLeft {
+    fill: none;
+    stroke: DarkViolet;
+    stroke-width: 3;
+}
+.chartLineRight2 {
+    fill: none;
+    stroke: red;
+    stroke-width: 3;
+}
+.chartLineRight1 {
+    fill: none;
+    stroke: blue;
+    stroke-width: 3;
+}
+.chartLineCI {
+    fill: none;
+    stroke: purple;
+    stroke-width: 3;
+}
+.chartLineVAC {
+    fill: none;
+    stroke: red;
+    stroke-width: 3;
+}
+.chartLineHZ {
+    fill: none;
+    stroke: blue;
+    stroke-width: 3;
+}
+.axisred line{
+  stroke: red;
+}
+.axisred path{
+  stroke: red;
+}
+.axisBlue line{
+  stroke: blue;
+}
+.axisBlue path{
+  stroke: blue;
+}
+.axisDarkViolet line{
+  stroke: DarkViolet;
+}
+.axisDarkViolet path{
+  stroke: DarkViolet;
+}
+
+</style>
+
+<defs id="pilotLightDefs">
+<radialGradient id="blueGradient" cx="50%" cy="50%" r="75%">
+<stop offset="0%" stop-color="rgb(0,0,255)" stop-opacity="1"/>
+<stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/>
+</radialGradient>
+<radialGradient id="greenGradient" cx="50%" cy="50%" r="75%">
+<stop offset="0%" stop-color="rgb(0,191,0)" stop-opacity="1"/>
+<stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/>
+</radialGradient>
+<radialGradient id="greyGradient" cx="50%" cy="50%" r="75%">
+<stop offset="0%" stop-color="rgb(255,255,255)" stop-opacity="1"/>
+<stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/>
+</radialGradient>
+<radialGradient id="redGradient" cx="50%" cy="50%" r="75%">
+<stop offset="0%" stop-color="rgb(255,0,0)" stop-opacity="1"/>
+<stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/>
+</radialGradient>
+<radialGradient id="violetGradient" cx="50%" cy="50%" r="75%">
+<stop offset="0%" stop-color="rgb(219,0,219)" stop-opacity="1"/>
+<stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/>
+</radialGradient>
+<radialGradient id="aquaGradient" cx="50%" cy="50%" r="75%">
+<stop offset="0%" stop-color="aqua" stop-opacity="1"/>
+<stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/>
+</radialGradient>
+</defs>
+<defs id="arrowDefs">
+<marker id="arrow0000FF" viewBox="0 0 8000 8000" vector-effect="non-scaling-stroke" refX="250" refY="150" markerUnits="strokeWidth" markerWidth="300" markerHeight="300" orient="auto" fill="#0000FF" stroke-linejoin="bevel">
+<path d="M2 59,293 148,1 243,121 151,Z" stroke="RGB(0,0,0)"/>
+</marker>
+</defs>
+<defs id="defsPattern">
+<pattern id="fafly" patternUnits="userSpaceOnUse" width="5" height="5" addTo="fill">
+<path d="M 2.5, 0 l 0, 5" stroke-width="0.5" shape-rendering="auto" stroke="#0000FF" stroke-linecap="square"/>
+</pattern>
+<pattern id="bgxkw" patternUnits="userSpaceOnUse" width="6" height="6" addTo="fill">
+<path d="M 0 3 c 0.75 -1.5 , 2.25 -1.5 , 3 0
+c 0.75 1.5 , 2.25 1.5 , 3 0 M -3 3
+c 0.75 1.5 , 2.25 1.5 , 3 0 M 6 3
+c 0.75 -1.5 , 2.25 -1.5 , 3 0" fill="transparent" stroke-width="0.5" shape-rendering="auto" stroke="#0000FF" stroke-linecap="square"/>
+</pattern>
+<pattern id="agptm" patternUnits="userSpaceOnUse" width="5" height="5" addTo="fill">
+<path d="M 0 2.5 c 0.625 -1.25 , 1.875 -1.25 , 2.5 0
+c 0.625 1.25 , 1.875 1.25 , 2.5 0 M -2.5 2.5
+c 0.625 1.25 , 1.875 1.25 , 2.5 0 M 5 2.5
+c 0.625 -1.25 , 1.875 -1.25 , 2.5 0" fill="transparent" stroke-width="0.5" shape-rendering="auto" stroke="#0000FF" stroke-linecap="square"/>
+</pattern>
+<pattern id="bzhuy" patternUnits="userSpaceOnUse" width="3" height="3" addTo="fill">
+<path d="M 0,1.5 l 3,0" stroke-width="0.5" shape-rendering="auto" stroke="#0000FF" stroke-linecap="square"/>
+</pattern>
+</defs>
+<defs id="defsGradient"/>
+<defs id="defsShadow">
+<filter id="drop-shadow" height="150%" width="150%">
+<feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur"/>
+<feOffset in="blur" dx="5" dy="5" result="offsetBlur"/>
+<feMerge>
+<feMergeNode in="offsetBlur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
+<defs id="pipe3dDefs">
+<filter id="pipe3D">
+<feFlood flood-color="black"/>
+<feComposite operator="out" in2="SourceGraphic"/>
+<feGaussianBlur stdDeviation="6"/>
+<feComposite operator="atop" in2="SourceGraphic"/>
+</filter>
+</defs>
+<defs id="alarmWarningTrendDefs">
+<linearGradient id="warningMaxTrend" x1="84%" y1="24%" x2="82%" y2="72%">
+<stop offset="0%" stop-color="#FF0000" stop-opacity="1"/>
+<stop offset="100%" stop-color="#FFA500" stop-opacity="1" stop-offset="100%"/>
+</linearGradient>
+<linearGradient id="warningMinTrend" x1="84%" y1="24%" x2="82%" y2="72%">
+<stop offset="0%" stop-color="#FFA500" stop-opacity="1" stop-offset="0%"/>
+<stop offset="100%" stop-color="#FF0000" stop-opacity="1"/>
+</linearGradient>
+</defs>
+<defs id="alarmWarningBarDefs">
+<linearGradient id="warningMaxBar" y1="84%" x1="24%" y2="82%" x2="72%">
+<stop offset="0" stop-color="#FFA500" stop-opacity="1"/>
+<stop offset="100%" stop-color="#FF0000" stop-opacity="1" stop-offset="100%"/>
+</linearGradient>
+<linearGradient id="warningMinBar" y2="84%" x2="24%" y1="82%" x1="72%">
+<stop offset="0" stop-color="#FFA500" stop-opacity="1"/>
+<stop offset="100%" stop-color="#FF0000" stop-opacity="1" stop-offset="100%"/>
+</linearGradient>
+</defs>
+<defs id="alarmWarningTankLevelDefs">
+<linearGradient id="warningMaxTankLevel" x1="84%" y1="24%" x2="82%" y2="72%">
+<stop offset="0%" stop-color="#FF0000" stop-opacity="1"/>
+<stop offset="100%" stop-color="#FFA500" stop-opacity="1" stop-offset="100%"/>
+</linearGradient>
+<linearGradient id="warningMinTankLevel" x1="84%" y1="24%" x2="82%" y2="72%">
+<stop offset="0%" stop-color="#FFA500" stop-opacity="1" stop-offset="0%"/>
+<stop offset="100%" stop-color="#FF0000" stop-opacity="1"/>
+</linearGradient>
+</defs>
+<g id="zoomG">
+<g shape-rendering="geometricPrecision" id="domAddProcessG" class="noselect"/>
+<g id="topG">
+<g shape-rendering="geometricPrecision" id="domAddPathG">
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="6" d="M623,820L632.834,830.166C642.666,840.334,662.334,860.666,682,860.5C701.666,860.334,721.334,839.666,731.166,829.334L741,819" type="basis" linearD="M 623 820 L 682 881 L 741 819" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="6" stroke-opacity="1.0" d="M 60 328 L 60 375" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#FF0000" stroke-width="6" stroke-opacity="1.0" d="M 125 333 L 125 376" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="5" stroke-opacity="1.0" d="M 94 769 L 67 792" type="linear" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="7" stroke-opacity="1.0" d="M 97 764 L 61 801" type="linear" pointer-events="visible"/>
+<path fill="#0000FF" fill-opacity="1.0" stroke="#0000FF" stroke-width="1" stroke-opacity="1.0" d="M 31 800 L 58 800 L 62 813 L 30 812 z" type="linear" pointer-events="visible"/>
+<path fill="#0000FF" fill-opacity="1.0" stroke="#0000FF" stroke-width="1" stroke-opacity="1.0" d="M 169 802 L 134 801 L 123 813 L 168 813" type="linear" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="40" d="M610,788L617.5,787.6666666666666C625,787.3333333333334,640,786.6666666666666,643.5,792C647,797.3333333333334,639,808.6666666666666,639.1666666666666,819.5C639.3333333333334,830.3333333333334,647.6666666666666,840.6666666666666,656.8333333333334,847.5C666,854.3333333333334,676,857.6666666666666,686.3333333333334,856.3333333333334C696.6666666666666,855,707.3333333333334,849,714.3333333333334,841.6666666666666C721.3333333333334,834.3333333333334,724.6666666666666,825.6666666666666,722,816.3333333333334C719.3333333333334,807,710.6666666666666,797,714.5,792.3333333333334C718.3333333333334,787.6666666666666,734.6666666666666,788.3333333333334,742.8333333333334,788.6666666666666L751,789" type="basis" linearD="M 610 788 L 655 786 L 631 820 L 656 851 L 686 861 L 718 843 L 728 817 L 702 787 L 751 789" pointer-events="visible" stroke-opacity="1.0" rotateAngle="0"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="4" d="M586,330L590,329.833C594,329.667,602,329.333,608.834,332C615.666,334.667,621.334,340.333,629.166,343.333C637,346.333,647,346.667,658.166,345.833C669.334,345,681.666,343,692.666,340.333C703.666,337.667,713.334,334.333,718.166,332.667L723,331" type="basis" linearD="M 586 330 L 610 329 L 627 346 L 657 347 L 694 341 L 723 331" pointer-events="visible" stroke-opacity="1.0" rotateAngle="0"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="4" d="M586,369L591,369.3333333333333C596,369.6666666666667,606,370.3333333333333,613.5,368.6666666666667C621,367,626,363,633,361.1666666666667C640,359.3333333333333,649,359.6666666666667,658.3333333333334,360.8333333333333C667.6666666666666,362,677.3333333333334,364,688.6666666666666,366.1666666666667C700,368.3333333333333,713,370.6666666666667,719.5,371.8333333333333L726,373" type="basis" linearD="M 586 369 L 616 371 L 631 359 L 658 360 L 687 366 L 726 373" pointer-events="visible" stroke-opacity="1.0" rotateAngle="0"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="3" stroke-opacity="1.0" d="M 612 342 L 612 322 L 637 322" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="3" stroke-opacity="1.0" d="M 697 347 L 697 322 L 676 322" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" stroke-opacity="1.0" d="M 577 124 L 620 124" marker-end="url(#arrow0000FF)" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" stroke-opacity="1.0" marker-end="url(#arrow0000FF)" d="M 658 148 L 692 148" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" stroke-opacity="1.0" marker-end="url(#arrow0000FF)" d="M 341 340 L 370 340" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" stroke-opacity="1.0" marker-end="url(#arrow0000FF)" d="M 436 362 L 460 362" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" stroke-opacity="1.0" marker-end="url(#arrow0000FF)" d="M 599 566 L 630 566" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" stroke-opacity="1.0" marker-end="url(#arrow0000FF)" d="M 692 566 L 723 566" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" stroke-opacity="1.0" marker-end="url(#arrow0000FF)" d="M 594 353 L 617 353" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" stroke-opacity="1.0" marker-end="url(#arrow0000FF)" d="M 689 354 L 719 354" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" stroke-opacity="1.0" marker-end="url(#arrow0000FF)" d="M 77 377 L 114 377" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" stroke-opacity="1.0" marker-end="url(#arrow0000FF)" d="M 342 558 L 372 558" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" stroke-opacity="1.0" marker-end="url(#arrow0000FF)" d="M 434 585 L 466 585" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" stroke-opacity="1.0" marker-end="url(#arrow0000FF)" d="M 393 130 L 464 130" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" stroke-opacity="1.0" marker-end="url(#arrow0000FF)" d="M 39 782 L 67 782" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" stroke-opacity="1.0" marker-end="url(#arrow0000FF)" d="M 121 785 L 164 785" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" stroke-opacity="1.0" marker-end="url(#arrow0000FF)" d="M 356 776 L 382 776" type="linear" rightAngle="true" pointer-events="visible"/>
+<path fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" stroke-opacity="1.0" marker-end="url(#arrow0000FF)" d="M 445 806 L 475 806" type="linear" rightAngle="true" pointer-events="visible"/>
+</g>
+<g shape-rendering="geometricPrecision" id="domAddElemG" text-rendering="geometricPrecision">
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 309 298)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 470 297)"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="18" height="31" rotateAngle="0" transform="matrix(1 0 0 1 393 289)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="75" height="61" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 364 226)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="139" height="59" rotateAngle="0" transform="matrix(1 0 0 1 331 322)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="75" height="61" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 633 668)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="75" height="61" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 617 443)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="75" height="61" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 615 221)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="75" height="61" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 595 9)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="75" height="61" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 362 7)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="75" height="61" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 371 665)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="75" height="61" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 360 453)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="75" height="61" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 60 660)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="75" height="61" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 62 448)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="75" height="61" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 57 233)"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="18" height="31" rotateAngle="0" transform="matrix(1 0 0 1 645 283)"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="18" height="31" rotateAngle="0" transform="matrix(1 0 0 1 624 71)"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="18" height="31" rotateAngle="0" transform="matrix(1 0 0 1 1041 120)"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="18" height="31" rotateAngle="0" transform="matrix(1 0 0 1 -1555 -7039)"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="18" height="31" rotateAngle="0" transform="matrix(1 0 0 1 393 69)"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="18" height="31" rotateAngle="0" transform="matrix(1 0 0 1 401 727)"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="18" height="31" rotateAngle="0" transform="matrix(1 0 0 1 391 513)"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="18" height="31" rotateAngle="0" transform="matrix(1 0 0 1 89 723)"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="18" height="31" rotateAngle="0" transform="matrix(1 0 0 1 92 509)"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="18" height="31" rotateAngle="0" transform="matrix(1 0 0 1 86 295)"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="18" height="31" rotateAngle="0" transform="matrix(1 0 0 1 667 729)"/>
+<rect fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="18" height="31" rotateAngle="0" transform="matrix(1 0 0 1 649 505)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="139" height="59" rotateAngle="0" transform="matrix(1 0 0 1 611 761)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="139" height="59" rotateAngle="0" transform="matrix(1 0 0 1 344 759)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="139" height="59" rotateAngle="0" transform="matrix(1 0 0 1 335 543)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="139" height="59" rotateAngle="0" transform="matrix(1 0 0 1 526 1217)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="139" height="59" rotateAngle="0" transform="matrix(1 0 0 1 592 536)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="139" height="59" rotateAngle="0" transform="matrix(1 0 0 1 586 315)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="139" height="59" rotateAngle="0" transform="matrix(1 0 0 1 567 103)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="139" height="59" rotateAngle="0" transform="matrix(1 0 0 1 332 101)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="139" height="59" rotateAngle="0" transform="matrix(1 0 0 1 31 754)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="139" height="59" rotateAngle="0" transform="matrix(1 0 0 1 30 541)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="139" height="59" rotateAngle="0" transform="matrix(1 0 0 1 28 326)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 471 81)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 310 82)"/>
+<text font-family="Arial" font-size="30" font-weight="normal" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 292 204)" rotateAngle="0">
+Vortex Shedding</text>
+<text font-family="Arial" font-size="30" font-weight="normal" font-style="normal" stroke="none" stroke-width="0.6" fill="#000000" transform="matrix(1 0 0 1 8 860)" rotateAngle="0" filter="null">
+Optimized Vane</text>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 484 738)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 323 736)"/>
+<text font-family="Arial" font-size="30" font-weight="normal" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 308 422)" rotateAngle="0">
+Paddle Wheel</text>
+<text font-family="Arial" font-size="30" font-weight="normal" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 347 637)" rotateAngle="0">
+Propeller</text>
+<text font-family="Arial" font-size="30" font-weight="normal" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 365 853)" rotateAngle="0">
+Turbine</text>
+<text font-family="Arial" font-size="30" font-weight="normal" font-style="normal" stroke="none" stroke-width="0.6" fill="#000000" transform="matrix(1 0 0 1 41 426)" rotateAngle="0" filter="null">
+Thermal</text>
+<text font-family="Arial" font-size="30" font-weight="normal" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 35 631)" rotateAngle="0">
+Magnetic</text>
+<text font-family="Arial" font-size="30" font-weight="normal" font-style="normal" stroke="none" stroke-width="0.6" fill="#000000" transform="matrix(1 0 0 1 515 641)" rotateAngle="0" filter="null">
+Positive  Displacement</text>
+<text font-family="Arial" font-size="30" font-weight="normal" font-style="normal" stroke="none" stroke-width="0.6" fill="#000000" transform="matrix(1 0 0 1 570 203)" rotateAngle="0" filter="null">
+Ultrasonic</text>
+<text font-family="Arial" font-size="30" font-weight="normal" font-style="normal" stroke="none" stroke-width="0.6" fill="#000000" transform="matrix(1 0 0 1 523 423)" rotateAngle="0" filter="null">
+Differential Pressure</text>
+<text font-family="Arial" font-size="30" font-weight="normal" font-style="normal" stroke="none" stroke-width="0.6" fill="#000000" transform="matrix(1 0 0 1 598 902)" rotateAngle="0" filter="null">
+Coriolis Mass</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0.8" fill="#0000FF" transform="matrix(1 0 0 1 98 367)" rotateAngle="0" filter="null">
+t</text>
+<rect fill="#0000FF" fill-opacity="1.0" stroke="#0000FF" stroke-width="2" x="0" y="0" width="14" height="9" transform="translate(54 328)" rotateAngle="0"/>
+<rect fill="#FF0000" fill-opacity="1.0" stroke="#FF0000" stroke-width="2" x="0" y="0" width="14" height="10" transform="translate(119 327)" rotateAngle="0"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 167 308)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 7 305)"/>
+<rect fill="url(#fafly)" stroke="#0000FF" stroke-width="2" x="0" y="0" width="22" height="58" transform="matrix(1 0 0 1 433 102)" rotateAngle="0" fill-opacity="null"/>
+<circle stroke="#0000FF" stroke-width="2" fill="#0000FF" fill-opacity="1.0" transform="matrix(1 0 0 1 98 764)" r="7"/>
+<rect fill="url(#agptm)" stroke="#0000FF" stroke-width="1" x="0" y="0" width="70" height="28" transform="matrix(1 0 0 1 65 556)" rotateAngle="0" fill-opacity="null"/>
+<rect fill="#7FFF00" fill-opacity="1.0" stroke="#0000FF" stroke-width="1" x="0" y="0" width="5" height="37" rotateAngle="0" transform="translate(133 551)"/>
+<rect fill="#FF0000" fill-opacity="1.0" stroke="#0000FF" stroke-width="1" x="0" y="0" width="5" height="37" rotateAngle="0" transform="matrix(1 0 0 1 60 552)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 169 520)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 9 522)"/>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0.8" fill="#000000" transform="matrix(1 0 0 1 376 52)" rotateAngle="0" filter="null">
+FT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0.8" fill="#000000" transform="matrix(1 0 0 1 69 277)" rotateAngle="0" filter="null">
+FT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 379 268)" rotateAngle="0">
+FT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0.8" fill="#000000" transform="matrix(1 0 0 1 609 54)" rotateAngle="0" filter="null">
+FT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0.8" fill="#000000" transform="matrix(1 0 0 1 629 266)" rotateAngle="0" filter="null">
+FT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0.8" fill="#000000" transform="matrix(1 0 0 1 74 492)" rotateAngle="0" filter="null">
+FT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0.8" fill="#000000" transform="matrix(1 0 0 1 373 496)" rotateAngle="0" filter="null">
+FT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0.8" fill="#000000" transform="matrix(1 0 0 1 630 487)" rotateAngle="0" filter="null">
+FT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0.8" fill="#000000" transform="matrix(1 0 0 1 75 704)" rotateAngle="0" filter="null">
+FT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0.8" fill="#000000" transform="matrix(1 0 0 1 382 709)" rotateAngle="0" filter="null">
+FT</text>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#000000" transform="matrix(1 0 0 1 647 705)" rotateAngle="0">
+FT</text>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 474 522)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 313 521)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 170 733)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 10 733)"/>
+<ellipse stroke="#000000" stroke-width="2" fill="#0000FF" fill-opacity="1.0" transform="matrix(0.984808 -0.173648 0.173648 0.984808 657 554)" rx="19" ry="10" rotateAngle="-9.9999844603325"/>
+<ellipse stroke="#000000" stroke-width="2" fill="#0000FF" fill-opacity="1.0" transform="matrix(0.766044 0.642788 -0.642788 0.766044 657 578)" rx="19" ry="10" rotateAngle="40.00001069057925"/>
+<circle stroke="#000000" stroke-width="2" fill="#000000" fill-opacity="1.0" transform="matrix(1 0 0 1 657 578)" r="7"/>
+<circle stroke="#000000" stroke-width="2" fill="#000000" fill-opacity="1.0" transform="matrix(1 0 0 1 655 554)" r="7"/>
+<text font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#FF0000" transform="matrix(1 0 0 1 35 582)" rotateAngle="0">
++</text>
+<text font-family="Arial" font-size="50" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#00FF00" transform="matrix(1 0 0 1 143 583)" rotateAngle="0">
+-</text>
+<rect fill="url(#bzhuy)" stroke="none" stroke-width="2" x="0" y="0" width="99.16094970703125" height="20.998947143554688" transform="matrix(0.891007 -0.45399 0.45399 0.891007 591 146)" rotateAngle="-26.9999844603325" fill-opacity="null"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 706 86)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 545 85)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 750 743)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 589 740)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 725 298)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 565 296)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 731 514)"/>
+<rect fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 570 512)"/>
+<circle stroke="#000000" stroke-width="2" fill="white" fill-opacity="0" stroke-dasharray="8 4" transform="matrix(1 0 0 1 660 566)" r="28"/>
+<text font-family="Arial" font-size="30" font-weight="bold" font-style="normal" stroke="none" stroke-width="0" fill="#0000FF" transform="matrix(1 0 0 1 656 334)" rotateAngle="0" filter="null">
+p</text>
+</g>
+</g>
+<g shape-rendering="geometricPrecision" id="domAddSymbolG"/>
+<g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" id="domAddIconG" class="noselect">
+<text font-size="70" font-family="Arial Unicode MS" stroke-width="1.4000000000000001" fill="#0000FF" stroke="black" x="-31.0859375" y="23.5" transform="matrix(1 0 0 1 402 352)">
+✲</text>
+<text font-size="70" font-family="Arial Unicode MS" stroke-width="1.6" fill="#0000FF" stroke="black" x="-35.5234375" y="27" transform="matrix(1 0 0 1 406 570)">
+✽</text>
+<text font-size="70" font-family="Arial Unicode MS" stroke-width="1.4000000000000001" fill="#0000FF" stroke="black" x="-31.0859375" y="23.5" transform="matrix(1 0 0 1 412 788)">
+✺</text>
+<text font-size="40" font-family="Arial Unicode MS" stroke-width="0.8" fill="#0000FF" stroke="black" x="-16.703125" y="13.5" transform="matrix(1 0 0 1 84 353)">
+△</text>
+<text font-size="50" font-family="Arial Unicode MS" stroke-width="1" fill="#0000FF" stroke="black" x="-21.53125" y="17" transform="matrix(1 0 0 1 363 132)">
+▶</text>
+<text font-size="25" font-family="Arial Unicode MS" stroke-width="0.5" fill="#0000FF" stroke="black" x="-9.765625" y="8.5" transform="translate(382 113)">
+↻</text>
+<text font-size="25" font-family="Arial Unicode MS" stroke-width="0.5" fill="#0000FF" stroke="black" x="-9.765625" y="8.5" transform="translate(386 149)">
+↺</text>
+<text font-size="25" font-family="Arial Unicode MS" stroke-width="0.5" fill="#0000FF" stroke="black" x="-9.765625" y="8.5" transform="translate(405 139)">
+↺</text>
+<text font-size="25" font-family="Arial Unicode MS" stroke-width="0.5" fill="#0000FF" stroke="black" x="-9.765625" y="8.5" transform="matrix(1 0 0 1 406 119)">
+↻</text>
+<text font-size="30" font-family="Arial Unicode MS" stroke-width="0.8" fill="#0000FF" stroke="black" x="-17.8203125" y="13.5" transform="matrix(1 0 0 1 105 596)">
+⯊</text>
+<text font-size="30" font-family="Arial Unicode MS" stroke-width="0.8" fill="#0000FF" stroke="black" x="-17.8203125" y="13.5" transform="matrix(1 0 0 1 105 539)">
+⯋</text>
+<text font-size="30" font-family="Arial Unicode MS" stroke-width="0.6" fill="#0000FF" stroke="black" x="-13.359375" y="10.5" transform="matrix(1 0 0 1 589 155)">
+⯅</text>
+<text font-size="30" font-family="Arial Unicode MS" stroke-width="0.6" fill="#0000FF" stroke="black" x="-13.359375" y="10.5" transform="matrix(1 0 0 1 688 108)">
+⯆</text>
+<text font-size="30" font-family="Arial Unicode MS" stroke-width="0.6" fill="#0000FF" stroke="black" x="-12.53125" y="10.5" transform="matrix(1 0 0 1 643 329)">
+△</text>
+</g>
+<g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" id="domAddComponentG" class="noselect">
+<g id="component1520369287314" nativeWidth="183.390625" nativeHeight="204" myscale="1.0" transform="matrix(1 0 0 1 5 3)">
+<path id="path1520354195974" fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="1" marker-end="url(#arrow0000FF)" d="M29,117L39.666666666666664,114.5C50.333333333333336,112,71.66666666666667,107,94.5,106.83333333333333C117.33333333333333,106.66666666666667,141.66666666666666,111.33333333333333,153.83333333333334,113.66666666666667L166,116" type="basis" linearD="M 29 117 L 93 102 L 166 116" stroke-opacity="1.0" rotateAngle="0"/>
+<path id="path1520354250380" fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="1" marker-end="url(#arrow0000FF)" d="M29,149L40.33336,151.1666C51.66664,153.3334,74.3333,157.6666,97.1667,157.8334C120,158,143,154,154.5,152L166,150" type="basis" linearD="M 29 149 L 97 162 L 166 150"/>
+<path id="path1520354304988" fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="1.5" marker-end="url(#arrow0000FF)" d="M28,141L38.83336,142.5C49.66664,144,71.3333,147,94.3333,147.1666C117.3333,147.3334,141.6666,144.6666,153.8334,143.3334L166,142" type="basis" linearD="M 28 141 L 93 150 L 166 142"/>
+<path id="path1520354623818" fill="none" fill-opacity="1.0" stroke="#0000FF" stroke-width="1.5" marker-end="url(#arrow0000FF)" d="M31,125L41.16664,122.5C51.33336,120,71.6667,115,94,115.1667C116.3333,115.3333,140.6666,120.6667,152.8334,123.3333L165,126" type="basis" linearD="M 31 125 L 92 110 L 165 126"/>
+<rect id="rect1520349994286" fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="75" height="61" rx="10" ry="10" rotateAngle="0" transform="matrix(1 0 0 1 56 9)"/>
+<rect id="rect1520350157157" fill="#000000" fill-opacity="1.0" stroke="#000000" stroke-width="2" x="0" y="0" width="18" height="31" rotateAngle="0" transform="matrix(1 0 0 1 86 70)"/>
+<rect id="rect1520350318525" fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="139" height="59" rotateAngle="0" transform="matrix(1 0 0 1 29 102)"/>
+<rect id="rect1520350535784" fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 169 82)"/>
+<rect id="rect1520350536457" fill="white" fill-opacity="0" stroke="#000000" stroke-width="2" x="0" y="0" width="21" height="98" rotateAngle="0" transform="matrix(1 0 0 1 8 82)"/>
+<text id="text1520352949339" font-family="Arial" font-size="30" font-weight="normal" font-style="normal" stroke="none" stroke-width="0.6" fill="#000000" transform="matrix(1 0 0 1 11 207)" rotateAngle="0" filter="null">
+Laminar Flow</text>
+<text id="text1520353398316" font-family="Arial" font-size="40" font-weight="bold" font-style="normal" stroke="none" stroke-width="0.8" fill="#000000" transform="matrix(1 0 0 1 69 54)" rotateAngle="0" filter="null">
+FT</text>
+<circle id="circle1520354089344" stroke="#0000FF" stroke-width="2" fill="#0000FF" fill-opacity="1.0" transform="translate(94 132)" r="11"/>
+<rect width="183.390625" height="204" fill="white" fill-opacity="0" transform="translate(8,9)" style="cursor: default;"/>
+</g>
+</g>
+<g shape-rendering="geometricPrecision" text-rendering="geometricPrecision" id="domAddHmiG"/>
+</g>
+<circle id="dragDot" class="dragTargetObj" cy="10" r="12" fill="white" fill-opacity=".5" stroke="black" stroke-width="1" vector-effect="non-scaling-stroke" style="visibility: hidden; cursor: default;"/>
+</svg>
+
+
+
+
+
+
+
+
+
+
+

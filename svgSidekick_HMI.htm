@@ -1,0 +1,667 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head> <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <title>SVG Control Diagrams</title>
+  <script type="text/javascript" src="highlight.pack.js"></script>
+  <script type="text/javascript" src="highlightCode.js"></script>
+  <link href='highlight.css' rel='stylesheet' />
+
+
+<script charset="UTF-8" type="text/javascript" src="js00_utility/iframeSelection.js"></script>
+<script charset="UTF-8" type="text/javascript" src="js00_utility/color.js"></script>
+<script charset="UTF-8" type="text/javascript" src="js00_utility/pathSeg.js"></script>
+<script charset="UTF-8" type="text/javascript" src="js00_utility/select.js"></script>
+<script charset="UTF-8" type="text/javascript" src="js00_utility/helperFuncts.js"></script>
+<script charset="UTF-8" type="text/javascript" src="js01_start/jquery2.js"></script>
+<script charset="UTF-8" type="text/javascript" src="js01_start/initD3Svg.js"></script>
+<script charset="UTF-8" type="text/javascript" src="js01_start/grid.js"></script>
+<script charset="UTF-8" type="text/javascript" src="js02_location/cursorLoc.js"></script>
+<script charset="UTF-8" type="text/javascript" src="js02_location/transformAdd.js"></script>
+<script charset="UTF-8" type="text/javascript" src="PVstripchart/pvStripChart.js"></script>
+<script  charset="UTF-8" type="text/javascript" src="d3.v4.min.js"></script>
+
+ <style type="text/css">
+
+  .noselect {
+      /*---prevent text element focus under create/edit elements---*/
+-webkit-touch-callout: none; /* iOS Safari */
+-webkit-user-select: none; /* Safari */
+-khtml-user-select: none; /* Konqueror HTML */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* Internet Explorer/Edge */
+user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+unselectable="on"
+onselectstart="return false;"
+onmousedown="return false;"
+ }
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+/* Style the lines by removing the fill and applying a stroke */
+.chartLineCFM {
+    fill: none;
+    stroke: #6600FF;
+    stroke-width: 2;
+}
+.chartLineCFMdiff {
+    fill: none;
+    stroke: #6600FF;
+    stroke-width: 1;
+    stroke-dasharray: 5,5;
+
+}
+.chartLineStaticPressure {
+    fill: none;
+    stroke: #996515;
+    stroke-width: 2;
+}
+.chartLineStaticPressSetpoint {
+    fill: none;
+    stroke: #996515;
+    stroke-width: 1;
+    stroke-dasharray: 3,3;
+}
+
+
+ </style>
+
+</head>
+
+<body style='font-family:arial' >
+
+<DIV id=containerDiv  style=position:absolute;top:40px;left:0px >
+<TABLE>
+ <TR>
+ <TD valign=top>
+ <DIV ID="iframeDiv" style='position:relative;top:0px;left:0px;width:400px'>
+<div id=addElemIconFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemIconFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Icon/drawIcon.js"></script>
+    <script charset="UTF-8" type="text/javascript" src="js03_drag/dragObjIcon.js"></script>
+<div id=addElemCircleFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemCircleFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Circle/drawCircle.js"></script>
+    <script charset="UTF-8" type="text/javascript" src="js03_drag/dragObjCircle.js"></script>
+<div id=addElemEllipseFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemEllipseFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Ellipse/drawEllipse.js"></script>
+    <script charset="UTF-8" type="text/javascript" src="js03_drag/dragObjEllipse.js"></script>
+<div id=addElemRectFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemRectFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Rect/drawRect.js"></script>
+    <script charset="UTF-8" type="text/javascript" src="js03_drag/dragObjRect.js"></script>
+<div id=addElemTextFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemTextFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Text/drawText.js"></script>
+    <script charset="UTF-8" type="text/javascript" src="js03_drag/dragObjText.js"></script>
+<div id=addElemPathFrameDiv  style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemPathFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Path/drawPath.js"></script>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Path/drawPathButton.js"></script>
+	<script charset="UTF-8" type="text/javascript" src="js03_drag/dragPathPoint.js"></script>
+<div id=addElemPathEditFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemPathEditFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Path/drawPathEdit.js"></script>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Path/drawPathEditButton.js"></script>
+	<script charset="UTF-8" type="text/javascript" src="js03_drag/dragPathPointEdit.js"></script>
+	<script charset="UTF-8" type="text/javascript" src="js03_drag/dragPathEdit.js"></script>
+<div id=addElemPgonFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemPgonFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
+<div id=addElemPgonEditFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemPgonEditFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Pgon/drawPgon.js"></script>
+	<script charset="UTF-8" type="text/javascript" src="js03_drag/dragObjPgon.js"></script>
+<div id=addElemControlFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemControlFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Control/drawControl.js"></script>
+	<script charset="UTF-8" type="text/javascript" src="js03_drag/dragObjControl.js"></script>
+<div id=addElemPIDFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemPIDFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/PID/drawPID.js"></script>
+	<script charset="UTF-8" type="text/javascript" src="js03_drag/dragObjPID.js"></script>
+<div id=addElemGaugeFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemGaugeFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Gauge/drawGauge.js"></script>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Gauge/gaugeObject.js"></script>
+	<script charset="UTF-8" type="text/javascript" src="js03_drag/dragObjGauge.js"></script>
+<div id=addElemPilotLightFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemPilotLightFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/PilotLight/drawPilotLight.js"></script>
+	<script charset="UTF-8" type="text/javascript" src="js03_drag/dragObjPilotLight.js"></script>
+<div id=addElemTextureFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemTextureFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Texture/drawTexture.js"></script>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Texture/textures.js"></script>
+<div id=addElemGradientFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemGradientFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Gradient/drawGradient.js"></script>
+<div id=addElemPolygonFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemPolygonFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
+	<script charset="UTF-8" type="text/javascript" src="AddElem/Polygon/drawPolygon.js"></script>
+	<script charset="UTF-8" type="text/javascript" src="js03_drag/dragObjPolygon.js"></script>
+
+ </DIV>
+
+ </TD>
+ <TD>
+<div id=svgDiv style="border:1px solid black;width:800px;height:560px"></div>
+<center>  (To edit an element, <b>click right-mouse button</b> when the cursor is over the element.)
+<p></p>
+ Drawing Width:<input type="text" value=800 id=svgWidthValue style='width:40px' />
+ Drawing Height:<input type="text" value=560 id=svgHeightValue style='width:40px' />&nbsp;<button id=setSVGSizeButton onClick=setSVGSizeButtonClicked() title="Set SVG drawing size">set</button>
+
+<TABLE><TR>
+ <TD> <button title="Show current drawing's SVG source" onClick=svgCopy()>SVG Source</button> <button id=clearButton title="Clear current SVG drawing"  onClick=clearButtonClicked() >Clear/Start Over</button>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </TD>
+<TD>
+<table>
+    <tr>
+        <td>Save SVG As:</td>
+        <td><input id="inputFileNameToSaveAs" placeholder="Include your fileName.svg"></input></td>
+        <td><button Title="Save current drawing to your computer" onclick="saveSvgAsFile()">save</button></td>
+    </tr>
+ </table>
+</TD>
+ <TD>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ <button title="Edit an existing SVG sidekick drawing" onClick=openExistingSVG()>Existing SVG</button></TD>
+</TR>
+<TR>
+<TD COLSPAN=3 ALIGN=CENTER>    <div class="copy"  id=existingSVGDiv style="display:none">
+<textarea id=existingSVGValue placeholder="Paste existing SVG Sidekick svg source here..." style=width:90%;height:100px></textarea>
+<br> &nbsp; <button id=closeExistingDivButton style='visibility:hidden' title="Close" onclick=closeExistingDiv()>cancel</button>  <button style=color:blue; onClick=insertExistingSVG()><u>insert</u></button>
+</div> </TD>
+ </TR></TABLE>
+
+
+   </center>
+
+</TD>
+
+</TR>
+</TABLE>
+<center>
+<div id=svgSaveDiv class="copySource" style=display:none;height:1px;overflow:auto;width:1200px;text-align:left; /></div>
+
+
+  <div id=svgSourceDiv style=display:none;overflow:auto;width:1200px;text-align:left; /></div>
+
+
+
+<p></p>
+
+</center>
+
+<div id=svgHMIDiv style=display:none>
+<svg id=svgHMI>
+<defs>
+<g id=PIDG><ellipse  id="pidEllipse" fill="gold" stroke="goldenrod"  stroke-width="4" cx="0" cy="0" rx="152" ry="64"/>
+ <foreignObject class="noselect" id=foAdjust width=300 height=100 x=-120 y=-50 pointer-events="hidden" >
+<table cellpadding=0 >
+<tr><td align=center colspan=5>Tune Controller:<input type="checkbox" id=adjustControllerCheck  /></td></tr>
+    <tr align=center>
+    <td>SP:<input  disabled style="margin-right: 0px;margin-left: 0px;"  type="radio" name=tuneRadio id=tuneSPClick  /></td>
+    <td>P:<input style="margin-right: 0px;margin-left: 0px;"   disabled  type="radio" name=tuneRadio  id=tunePClick   /></td>
+    <td>I:<input disabled title="turn off Integral"  id=turnOffIntegralCheck type="checkbox" checked style="margin-right: 0px;margin-left: 0px;"  /><input style="margin-right: 0px;margin-left: 0px;" disabled  type="radio" name=tuneRadio  id=tuneIClick   /></td>
+    <td>D:<input disabled  title="turn off Derivative"  id=turnOffDerivativeCheck  type="checkbox" checked style="margin-right: 0px;margin-left: 0px;" /><input style="margin-right: 0px;margin-left: 0px;"  disabled  type="radio" name=tuneRadio  id=tuneDClick   /></td>
+    <td>CO:<input  disabled type="radio" style="margin-right: 0px;margin-left: 0px;"  name=tuneRadio   id=tuneCOClick   /></td>
+    </tr>
+    <tr align=center>
+    <td><input type="text" style=width:40px id=tuneSPValue value=100.0 /></td>
+    <td ><input  type="text" style=width:40px  id=tunePValue value=1 /></td>
+    <td><input type="text" style=width:40px  id=tuneIValue value=10 /></td>
+    <td><input  type="text" style=width:40px  id=tuneDValue value=1 /></td>
+    <td><input  type="text" style=width:40px  id=tuneCOValue value=0 /></td>
+    </tr>
+    <tr><td align=center colspan=5>
+        <TABLE >
+        <TR>
+        <TD><button  disabled  style=padding:0;width:30px;height:30px><img src="Images/minusRound.png" alt="" width=25 height=25 /></button></TD>
+        <TD>
+            <select disabled id=incrementSelect title="Increment value">
+              <option value="">.10</option>
+              <option value="">.50</option>
+              <option selected value="">1.0</option>
+              <option value="">5.0</option>
+              <option value="">10</option>
+
+            </select>
+        </TD>
+        <TD><button  disabled  style=padding:0;width:30px;height:30px><img src="Images/plusRound.png" alt="" width=25 height=25 /></button></TD>
+        </TR>
+        </TABLE>
+    </td></tr>
+</table>
+</foreignObject>
+</g>
+</defs>
+
+<defs>
+<g id=pilotLightG><circle id=pilotLight cx="0" cy="0" r="1"  fill="url(#greenGradient)" /><line style="visibility:hidden" name=lineOff x1=-.5 y1=-.5 x2=.5 y2=.5 stroke='black' stroke-width=.1 /><line  style="visibility:hidden"  name=lineDisabled x1=.5 y1=-.5 x2=-.5 y2=.5 stroke='black' stroke-width=.1 /><circle  style="visibility:hidden"  name=circleDefective cx=0 cy=0 r=.7 stroke='crimson' stroke-width=.2 fill="none" /><line style="visibility:hidden" name=lineDefective x1=-.5 y1=-.5 x2=.5 y2=.5 stroke='crimson' stroke-width=.08 /></g>
+</defs>
+</svg>
+
+
+
+</div>
+</DIV>
+<div id=hmiIntroDiv style='position:absolute;top:40px;left:10px;width:360px;height:640px;background:#007fff;border:1px solid blue;border-radius:15px;padding:10px;color:white'>
+<center><b>Create SVG Control Schematics</b></center>
+<img src="Images/controlDiagram.png" alt="" width="360" height="271" />
+Includes standard symbols for Controls, PID Controller, Gauges, and 5-Status Pilot Lights.
+<br>Select sizes and colors for:<br>
+<table>
+<tr><td>Control</td><td><img src="Images/control.png" alt="" /></td></tr>
+<tr><td>PID</td><td><img src="Images/pid.png" alt="" /></td></tr>
+<tr><td>Gauge</td><td><img src="Images/gauge.png" alt="" /></td></tr>
+<tr><td>Pilot Light</td><td><img src="Images/pilotLight.png" alt="" /></td></tr>
+</table>
+</div>
+<div id=helpDiv style='visibility:hidden;position:absolute;top:40px;left:10px;width:360px;height:1px;background:#007fff;border:1px solid blue;border-radius:15px;padding:10px;color:white'>
+<table style=width:100%><td style=width:90%; align=center><h7><b>Creating SVG Elements</b></h7></td><td align=right><button onclick=closeHelp()>X</button></td></table>
+<br><div style=text-align:justify> Each element includes its unique pane to set &amp; edit its specific values. Click on the element's button to use its pane to create and place the element in the drawing.
+ After an element is created, it can be edited by moving the cursor over the element, then <b>right-click</b> the mouse  button.
+</div>
+<p></p>
+<b>Paths</b> - Both linear and curved paths can be created by clicking their points on the drawing. Drag any point to modify its shape.
+<p></p><b>Symbols</b> - This a list of thirty(30) polygons that can be created and placed in the drawing.
+<p></p><b>Icons</b> - Over 500 icons created from groups of unicode text elements: DINGBATS, GEOMETRIC, ARROWS, MATHEMATICAL, TECHNICAL, and SYMBOLS.
+
+<p></p><b>Textures</b> - Three(3) types of pre-built patterns are available: circles, lines, and paths. The pattern is placed in either an element's fill or stroke.
+<p></p><b>Gradients</b> - Radial and linear gradients can be created to be placed in either an element's fill or stroke.
+
+<p></p> <b>Shadows</b> - Each element can be selected to include a drop-shadow.
+
+<p></p> <b>Save/Edit SVG Drawing</b> - You may save the drawing within an .svg drawing stored on your computer. It can then be edited in the future by placing the file in the textarea, under the 'Existing SVG' selection.
+
+</div
+<center>
+
+
+<div id=selectDrawElemDiv style='position:fixed;top:5px;left:0px;'><b>SVG Control Diagrams</b><button onClick=openHelp() style=width:25px;height:25px;padding:0px;border:0px;background:white ><img src="Images/help.png"  width=25 height=25 /></button> &nbsp; &nbsp; &nbsp; &nbsp;
+            <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddControlButton  style=background-color:linen onClick=openAddControlDraw()>Controls</button>
+            <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddPIDButton  style=background-color:linen onClick=openAddPIDDraw()>PIDs</button>
+            <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddGaugeButton  style=background-color:linen onClick=openAddGaugeDraw()>Gauges</button>
+            <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddPilotLightButton  style=background-color:linen onClick=openAddPilotLightDraw()>Pilot Lights</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddCircleButton  style=background-color:linen onClick=openAddCircleDraw()>Circles</button>
+            <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddEllipseButton  style=background-color:linen onClick=openAddEllipseDraw()>Ellipses</button>
+            <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddRectButton  style=background-color:linen onClick=openAddRectDraw()>Rectangles</button>
+            <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddTextButton  style=background-color:linen onClick=openAddTextDraw()>Text</button>
+            <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddPathButton  style=background-color:linen onClick=openAddPathDraw()>Paths</button>
+            <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddPolygonButton  style=background-color:linen onClick=openAddPolygonDraw()>Polygons</button>
+            <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddPgonButton  style=background-color:linen onClick=openAddPgonDraw()>Symbols</button>
+            <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddIconButton  style=background-color:linen onClick=openAddIconDraw()>Icons</button>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button title="Add pattern/texture fill to elements" onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddTextureButton  style=background-color:linen onClick=openAddTexture()><i>Textures</i></button>
+            <button title="" onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddGradientButton  style=background-color:linen onClick=openAddGradient()><i>Gradients</i></button>
+  </div>
+</center>
+<div  id=elemSizeDiv
+  style='box-shadow: 4px 4px 4px #888888;-webkit-box-shadow:2px 3px 4px #888888;
+  font-size:80%;z-index:20;padding:4px;position:absolute;top:0px;left:0px;visibility:hidden;
+  background-color:linen;border: solid 1px black;border-radius:5px;cursor:default;'>
+
+</div>
+<div id=savedTextureDiv style='padding:5px;border-radius:8px;border:2px lightblue solid;visibility:hidden;background:linen;position:fixed;top:5px;left:400px;width:800px;height:70px;overflow-y:hidden;'>
+<table id=savedTextureTable ><tr align=center></tr></table>
+</div>
+
+
+</body>
+<script>
+function openHelp()
+{
+    var height=680
+    d3.select("#helpDiv").transition().duration(800).style("height", height+"px")
+    helpDiv.style.visibility="visible"
+    hmiIntroDiv.style.visibility="hidden"
+}
+function closeHelp()
+{
+    var height=1
+    d3.select("#helpDiv").transition().duration(800).style("height", height+"px")
+    setTimeout('helpDiv.style.visibility="hidden"',900)
+}
+
+function svgCopy()
+{
+    svgSaveDiv.style.display="block"
+    showSaveSVG()
+}
+
+
+
+function saveSvgAsFile()
+{
+
+  if(inputFileNameToSaveAs.value!="")
+  {
+        showSaveSVG()
+        showSourceSVG()
+
+        var textToSave = svgSaveDiv.innerText.replace(/\\n/g,"")
+        //---or use this---
+        //var textToSave = new XMLSerializer().serializeToString(mySVG)
+
+        var textToSaveAsBlob = new Blob([textToSave], {type:"text/xml"});
+        var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
+        var fileNameToSaveAs = document.getElementById("inputFileNameToSaveAs").value;
+        if(fileNameToSaveAs.indexOf(".svg")==-1)
+        fileNameToSaveAs+=".svg"
+        var downloadLink = document.createElement("a");
+        downloadLink.download = fileNameToSaveAs;
+        downloadLink.innerHTML = "Download File";
+        downloadLink.href = textToSaveAsURL;
+        downloadLink.onclick = destroyClickedElement;
+        downloadLink.style.display = "none";
+        document.body.appendChild(downloadLink);
+
+        downloadLink.click();
+    }
+}
+function destroyClickedElement(event)
+{
+    document.body.removeChild(event.target);
+}
+
+function clearButtonClicked()
+{
+   closeAllFrames()
+
+
+ for(var k=domAddHmiG.childNodes.length-1;k>=0;k--)
+    domAddHmiG.removeChild(domAddHmiG.childNodes.item(k))
+//---retain gradients/patterns/symbols---
+
+ for(var k=domAddPathG.childNodes.length-1;k>=0;k--)
+    domAddPathG.removeChild(domAddPathG.childNodes.item(k))
+ for(var k=domAddElemG.childNodes.length-1;k>=0;k--)
+       domAddElemG.removeChild(domAddElemG.childNodes.item(k))
+ for(var k=domAddSymbolG.childNodes.length-1;k>=0;k--)
+    domAddSymbolG.removeChild(domAddSymbolG.childNodes.item(k))
+        for(var k=domActiveElemG.childNodes.length-1;k>=0;k--)
+        {
+          if(domActiveElemG.childNodes.item(k).getAttribute("id")!="domDrawX"&&domActiveElemG.childNodes.item(k).getAttribute("id")!="dragDot")
+            domActiveElemG.removeChild(domActiveElemG.childNodes.item(k))
+       }
+ for(var k=domAddIconG.childNodes.length-1;k>=0;k--)
+    domAddIconG.removeChild(domAddIconG.childNodes.item(k))
+
+       inputFileNameToSaveAs.value=""
+       inputFileNameToSaveAs.placeholder="Include your fileName.svg"
+
+            showSourceSVG()
+            showSaveSVG()
+}
+
+//================insert/edit existing svg================
+
+function openExistingSVG()
+{
+    existingSVGDiv.style.display="block"
+    closeExistingDivButton.style.visibility="visible"
+    existingSVGValue.focus()
+}
+function closeExistingDiv()
+{
+    existingSVGDiv.style.display="none"
+    closeExistingDivButton.style.visibility="hidden"
+
+}
+
+
+function insertExistingSVG()
+{
+    clearButtonClicked()
+    var svgString=existingSVGValue.value.replace(/\\n/g,"")
+
+
+    var parser = new DOMParser();
+    var SVGdoc=parser.parseFromString(svgString,"text/xml").documentElement;
+    var svgWidth=SVGdoc.getAttribute("width")
+    var svgHeight=SVGdoc.getAttribute("height")
+    svgWidthValue.value=svgWidth
+    svgHeightValue.value=svgHeight
+    svgDiv.style.width=svgWidth+"px"
+    svgDiv.style.height=svgHeight+"px"
+    mySVG.setAttribute("width",svgWidth)
+    mySVG.setAttribute("height",svgHeight)
+    mySVG.setAttribute("viewBox", "0 0 "+svgWidth+" "+svgHeight)
+    createGridLayer()
+
+    for(var k=0;k<SVGdoc.childNodes.length;k++)
+    {
+        var elem=SVGdoc.childNodes.item(k)
+        if(elem.nodeName!="#text")
+        {
+            if(elem.id=="arrowDefs")
+            {
+               var arrows=elem.childNodes
+               for(var a=0;a<arrows.length;a++)
+               if(arrows.item(a).nodeName!="#text")
+                arrowDefs.appendChild(arrows.item(a).cloneNode(true))
+            }
+            if(elem.id=="defsPattern")
+            {
+               var patterns=elem.childNodes
+               for(var a=0;a<patterns.length;a++)
+               if(patterns.item(a).nodeName!="#text")
+                defsPattern.appendChild(patterns.item(a).cloneNode(true))
+            }
+            if(elem.id=="defsGradient")
+            {
+               var gradients=elem.childNodes
+               for(var a=0;a<gradients.length;a++)
+               if(gradients.item(a).nodeName!="#text")
+                defsGradient.appendChild(gradients.item(a).cloneNode(true))
+            }
+
+            if(elem.id=="topG")
+            {
+                elem.setAttribute("pointer-events","none")
+
+            for(var z=0;z<elem.childNodes.length;z++)
+            {
+                var elz=elem.childNodes.item(z)
+                if(elz.nodeName!="#text")
+                {
+                  if (elz.id=="domAddPathG")
+                   {
+                        var pathG = elz
+
+                        for(var p = 0; p<pathG.childNodes.length; p++)
+                        {
+                            if(pathG.childNodes.item(p).nodeName!="#text")
+                            {
+                              var pathId="path"+p
+                             pathG.childNodes.item(p).setAttribute("id",pathId)
+                            pathG.childNodes.item(p).setAttribute("onmousedown","startPathDrawEdit("+pathId+",evt)");
+                            domAddPathG.appendChild(pathG.childNodes.item(p).cloneNode(true))
+                           }
+                        }
+                   }
+                   else if(elz.id=="domAddElemG")
+                   {
+                        var elemG =elz
+                         for(var e = 0; e<elemG.childNodes.length; e++)
+                        {
+                            var el=elemG.childNodes.item(e)
+                            if(el.nodeName!="#text")
+                            {
+                                if(el.nodeName=="circle")
+                                {
+                                    var id="circle"+e
+                                    el.setAttribute("id",id)
+                                    el.setAttribute("onmousedown","editCircleDraw("+id+",evt)");
+                                    domAddElemG.appendChild(el.cloneNode("true"))
+                                }
+                                if(el.nodeName=="polygon")
+                                {
+                                    var id="polygon"+e
+                                    el.setAttribute("id",id)
+                                    el.setAttribute("onmousedown","editPolygonDraw("+id+",evt)");
+                                    domAddElemG.appendChild(el.cloneNode("true"))
+                                }
+                                if(el.nodeName=="ellipse")
+                                {
+                                    var id="ellipse"+e
+                                    el.setAttribute("id",id)
+                                    el.setAttribute("onmousedown","editEllipseDraw("+id+",evt)");
+                                    domAddElemG.appendChild(el.cloneNode("true"))
+
+
+                                }
+                                if(el.nodeName=="rect")
+                                {
+
+                                    var id="rect"+e
+                                    el.setAttribute("id",id)
+                                    el.setAttribute("onmousedown","editRectDraw("+id+",evt)");
+                                    domAddElemG.appendChild(el.cloneNode("true"))
+
+                                }
+                                if(el.nodeName=="text")
+                                {
+                                    var id="text"+e
+                                    el.setAttribute("id",id)
+                                    el.setAttribute("onmousedown","editTextDraw("+id+",evt)");
+                                    domAddElemG.appendChild(el.cloneNode("true"))
+
+                                }
+                            }
+                      }
+
+                    }
+                }
+
+
+
+                }
+
+
+
+            }
+
+            if(elem.id=="domAddSymbolG")
+            {
+                for(var p = 0; p<elem.childNodes.length; p++)
+                {
+                    var el=elem.childNodes.item(p)
+                    if(el.nodeName!="#text")
+                    {
+                          var id="symbol"+p
+                         el.setAttribute("id",id)
+                         el.setAttribute("class","dragTargetObj")
+
+
+                        el.setAttribute("onmousedown","editPgonStart(evt)");
+                        domAddSymbolG.appendChild(el.cloneNode(true))
+                    }
+                }
+
+
+
+            }
+             if(elem.id=="domAddIconG")
+            {
+                for(var p = 0; p<elem.childNodes.length; p++)
+                {
+                    var el=elem.childNodes.item(p)
+                    if(el.nodeName!="#text")
+                    {
+                          var id="icon"+p
+                         el.setAttribute("id",id)
+                         el.setAttribute("class","dragTargetObj")
+
+
+                        el.setAttribute("onmousedown","editIconStart(evt)");
+                        domAddSymbolG.appendChild(el.cloneNode(true))
+                    }
+                }
+
+
+
+            }
+
+          if(elem.id=="domAddHmiG")
+            {
+                for(var p = 0; p<elem.childNodes.length; p++)
+                {
+                    var el=elem.childNodes.item(p)
+                    if(el.nodeName!="#text")
+                    {
+                          var myId=el.id
+
+                         el.setAttribute("class","dragTargetObj")
+
+                        if(myId.indexOf("control")!=-1)
+                        el.setAttribute("onmousedown","editControlDraw("+myId+",evt)");
+                        if(myId.indexOf("pilotLight")!=-1)
+                        el.setAttribute("onmousedown","editPilotLightDraw("+myId+",evt)");
+                        if(myId.indexOf("PID")!=-1)
+                        el.setAttribute("onmousedown","editPIDDraw("+myId+",evt)");
+                        if(myId.indexOf("gauge")!=-1)
+                        el.setAttribute("onmousedown","editGaugeDraw("+myId+",evt)");
+
+
+                        domAddHmiG.appendChild(el.cloneNode(true))
+                    }
+                }
+
+
+
+            }
+
+
+
+
+        }
+    }
+
+    closeExistingDiv()
+    showSourceSVG()
+    showSaveSVG()
+}
+document.addEventListener("onload",init(),false)
+function init()
+{
+   initD3Svg()
+   createGridLayer()
+//buildPVStripChart()
+//buildInitData()
+   startCursorLoc()
+
+   	showSourceSVG()
+    showSaveSVG()
+   $(".copy").children().bind('contextmenu', function(e){
+       e.stopPropagation();
+   });
+   $(".copySource").bind('contextmenu', function(e){
+       e.stopPropagation();
+   });
+}
+function setSVGSizeButtonClicked()
+{
+
+    var svgWidth=svgWidthValue.value
+    var svgHeight=svgHeightValue.value
+    svgDiv.style.width=svgWidth+"px"
+    svgDiv.style.height=svgHeight+"px"
+    mySVG.setAttribute("width",svgWidth)
+    mySVG.setAttribute("height",svgHeight)
+   mySVG.setAttribute("viewBox", "0 0 "+svgWidth+" "+svgHeight)
+     createGridLayer()
+
+
+    showSourceSVG()
+    showSaveSVG()
+}
+
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+
+</script>
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-88028738-1', 'auto');
+  ga('send', 'pageview');
+
+
+</script>
+
+</html>

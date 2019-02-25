@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" id="mySVG" viewBox="0 0 800 600"><defs id="pilotLightDefs"><radialGradient id="blueGradient" cx="50%" cy="50%" r="75%"><stop offset="0%" stop-color="rgb(0,0,255)" stop-opacity="1"/><stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/></radialGradient><radialGradient id="greenGradient" cx="50%" cy="50%" r="75%"><stop offset="0%" stop-color="rgb(0,191,0)" stop-opacity="1"/><stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/></radialGradient><radialGradient id="greyGradient" cx="50%" cy="50%" r="75%"><stop offset="0%" stop-color="rgb(255,255,255)" stop-opacity="1"/><stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/></radialGradient><radialGradient id="redGradient" cx="50%" cy="50%" r="75%"><stop offset="0%" stop-color="rgb(255,0,0)" stop-opacity="1"/><stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/></radialGradient><radialGradient id="violetGradient" cx="50%" cy="50%" r="75%"><stop offset="0%" stop-color="rgb(219,0,219)" stop-opacity="1"/><stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/></radialGradient><radialGradient id="aquaGradient" cx="50%" cy="50%" r="75%"><stop offset="0%" stop-color="aqua" stop-opacity="1"/><stop offset="100%" stop-color="rgb(0,0,0)" stop-opacity="1"/></radialGradient></defs><defs id="arrowDefs"><marker id="arrowred" viewBox="0 0 8000 8000" vector-effect="non-scaling-stroke" refX="250" refY="150" markerUnits="strokeWidth" markerWidth="300" markerHeight="300" orient="auto" fill="red" stroke-linejoin="bevel"><path d="M2 59,293 148,1 243,121 151,Z" stroke="RGB(0,0,0)"/></marker><marker id="arrowred" viewBox="0 0 8000 8000" vector-effect="non-scaling-stroke" refX="250" refY="150" markerUnits="strokeWidth" markerWidth="300" markerHeight="300" orient="auto" fill="red" stroke-linejoin="bevel">
+<path d="M2 59,293 148,1 243,121 151,Z" stroke="RGB(0,0,0)"/>
+</marker><marker id="arrowred" viewBox="0 0 8000 8000" vector-effect="non-scaling-stroke" refX="250" refY="150" markerUnits="strokeWidth" markerWidth="300" markerHeight="300" orient="auto" fill="red" stroke-linejoin="bevel">
+
+<path d="M2 59,293 148,1 243,121 151,Z" stroke="RGB(0,0,0)"/>
+
+</marker><marker id="arrowred" viewBox="0 0 8000 8000" vector-effect="non-scaling-stroke" refX="250" refY="150" markerUnits="strokeWidth" markerWidth="300" markerHeight="300" orient="auto" fill="red" stroke-linejoin="bevel">
+
+
+<path d="M2 59,293 148,1 243,121 151,Z" stroke="RGB(0,0,0)"/>
+
+
+</marker><marker id="arrow4B5320" viewBox="0 0 8000 8000" vector-effect="non-scaling-stroke" refX="250" refY="150" markerUnits="strokeWidth" markerWidth="300" markerHeight="300" orient="auto" fill="#4B5320" stroke-linejoin="bevel">
+
+
+<path d="M2 59,293 148,1 243,121 151,Z" stroke="RGB(0,0,0)"/>
+
+
+</marker><marker id="arrow00FFFF" viewBox="0 0 8000 8000" vector-effect="non-scaling-stroke" refX="250" refY="150" markerUnits="strokeWidth" markerWidth="300" markerHeight="300" orient="auto" fill="#00FFFF" stroke-linejoin="bevel">
+
+
+<path d="M2 59,293 148,1 243,121 151,Z" stroke="RGB(0,0,0)"/>
+
+
+</marker><marker id="arrow0247FE" viewBox="0 0 8000 8000" vector-effect="non-scaling-stroke" refX="250" refY="150" markerUnits="strokeWidth" markerWidth="300" markerHeight="300" orient="auto" fill="#0247FE" stroke-linejoin="bevel">
+
+
+<path d="M2 59,293 148,1 243,121 151,Z" stroke="RGB(0,0,0)"/>
+
+
+</marker><marker id="arrow000000" viewBox="0 0 8000 8000" vector-effect="non-scaling-stroke" refX="250" refY="150" markerUnits="strokeWidth" markerWidth="300" markerHeight="300" orient="auto" fill="#000000" stroke-linejoin="bevel">
+
+
+<path d="M2 59,293 148,1 243,121 151,Z" stroke="RGB(0,0,0)"/>
+
+
+</marker><marker id="arrow008080" viewBox="0 0 8000 8000" vector-effect="non-scaling-stroke" refX="250" refY="150" markerUnits="strokeWidth" markerWidth="300" markerHeight="300" orient="auto" fill="#008080" stroke-linejoin="bevel">
+
+
+<path d="M2 59,293 148,1 243,121 151,Z" stroke="RGB(0,0,0)"/>
+
+
+</marker></defs><g id="topG"><g shape-rendering="geometricPrecision" id="domAddPathG"><path fill="white" fill-opacity="0" stroke="#00FFFF" stroke-width="5" marker-end="url(#arrow00FFFF)" d="M 727 110 L 255 110" type="linear" rightAngle="true"/><path fill="white" fill-opacity="0" stroke="#000000" stroke-width="1.5" marker-end="url(#arrow000000)" d="M 671 48 L 626 48 L 626 84 L 613 103 L 641 113 L 628 131 L 630 172" type="linear"/><path fill="white" fill-opacity="0" stroke="#008080" stroke-width="1" marker-end="url(#arrow008080)" d="M 549 102 L 549 60" stroke-dasharray="8 4" type="linear" rightAngle="true"/><path fill="white" fill-opacity="0" stroke="#008080" stroke-width="1" stroke-dasharray="8 4" marker-end="url(#arrow008080)" d="M 581 49 L 615 49" type="linear" rightAngle="true"/><path fill="white" fill-opacity="0" stroke="#008080" stroke-width="1" stroke-dasharray="8 4" marker-end="url(#arrow008080)" d="M 379 51 L 517 51" type="linear" rightAngle="true"/><path fill="white" fill-opacity="0" stroke="#008080" stroke-width="1" stroke-dasharray="8 4" marker-end="url(#arrow008080)" d="M 346 108 L 346 64" type="linear" rightAngle="true"/><path fill="white" fill-opacity="0" stroke="#000000" stroke-width="1.5" marker-end="url(#arrow000000)" d="M 670 48 L 634 48" type="linear" rightAngle="true"/><path fill="white" fill-opacity="0" stroke="#008080" stroke-width="2" stroke-dasharray="8 4" marker-end="url(#arrow008080)" d="M 118 575 L 118 416" type="linear" rightAngle="true"/><path fill="white" fill-opacity="0" stroke="#008080" stroke-width="2" stroke-dasharray="8 4" marker-end="url(#arrow008080)" d="M 224 367 L 367 367" type="linear" rightAngle="true"/><path fill="white" fill-opacity="0" stroke="#008080" stroke-width="2" stroke-dasharray="8 4" marker-end="url(#arrow008080)" d="M 485 575 L 485 417" type="linear" rightAngle="true"/><path fill="white" fill-opacity="0" stroke="#008080" stroke-width="2" stroke-dasharray="8 4" marker-end="url(#arrow008080)" d="M 587 367 L 725 367" type="linear" rightAngle="true"/></g><g shape-rendering="geometricPrecision" id="domAddElemG" text-rendering="geometricPrecision"><circle stroke="#3B444B" stroke-width="2" fill="#FF0000" fill-opacity="0.5" transform="translate(628 109)" r="23"/><rect fill="#2E8B57" fill-opacity="0.5" stroke="#9966CC" stroke-width="2" x="0" y="0" width="89" height="44" rx="10" ry="10" transform="matrix(1 0 0 1 402 86)" rotateAngle="0"/><text font-family="Arial" font-size="15" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 594 146)" rotateAngle="0">
+
+
+Heat Exchanger</text><text font-family="Arial" font-size="15" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 392 150)" rotateAngle="0" stroke-width="null">
+
+
+Fixed Bed Reactor</text><text font-family="Arial" font-size="12" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 679 51)" rotateAngle="0">
+
+
+Heating Medium</text><text font-family="Arial" font-size="20" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 737 116)" rotateAngle="0">
+
+
+Gas</text><text font-family="Arial" font-size="12" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 403 46)" rotateAngle="0">
+
+
+Setpoint Adjust</text><text font-family="Arial" font-size="12" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 320 32)" rotateAngle="0">
+
+
+Primary</text><text font-family="Arial" font-size="12" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 522 32)" rotateAngle="0">
+
+
+Secondary</text><text font-family="Arial" font-size="12" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 523 131)" rotateAngle="0">
+
+
+Temperature</text><text font-family="Arial" font-size="12" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 308 128)" rotateAngle="0">
+
+
+Concentration</text><text font-family="Arial" font-size="12" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 611 35)" rotateAngle="0">
+
+
+Flow</text><text font-family="Arial" font-size="15" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 744 350)" rotateAngle="0">Flow </text><text font-family="Arial" font-size="15" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 733 398)" rotateAngle="0">Actuator</text><text font-family="Arial" font-size="15" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 237 424)" rotateAngle="0">Setpoint Adjust</text><text font-family="Arial" font-size="15" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 127 561)" rotateAngle="0">Concentration</text><text font-family="Arial" font-size="15" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 497 562)" rotateAngle="0">Temperature</text><text font-family="Arial" font-size="20" font-weight="bold" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 74 63)" rotateAngle="0" stroke-width="null">Cascade Control</text><text font-family="Arial" font-size="20" font-weight="bold" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 69 88)" rotateAngle="0" stroke-width="null">Fixed Bed Reactor</text><text font-family="Arial" font-size="15" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 694 287)" rotateAngle="0">Minutes</text><text font-family="Arial" font-size="15" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1.38778e-16 1 -1 1.38778e-16 39 177)" rotateAngle="90">Concentration</text><text font-family="Arial" font-size="15" font-weight="normal" font-style="normal" fill="#000000" transform="matrix(1 0 0 1 602 423)" rotateAngle="0">Control Output</text></g></g><g shape-rendering="geometricPrecision" id="domAddHmiG"><g id="control1511357488647" transform="matrix(0.4 0 0 0.4 549 47)" pointer-events="null">
+
+
+<line stroke="none" strokeCode="1" stroke-width="2" x1="0" y1="-60" x2="0" y2="60" name="SpineCenterLine"/>
+
+
+<ellipse fill="#FFD700" stroke="#E52B50" fillCode="137" strokeCode="5" stroke-width="4" cx="0" cy="0" rx="76" ry="32"/>
+
+
+</g><g id="pilotLight1511362260379" transform="matrix(10 0 0 10 548 47)" pointer-events="null" myStatus="ON">
+
+
+<circle id="pilotLight" cx="0" cy="0" r="1" fill="url(#greenGradient)"/>
+
+
+<line style="visibility:hidden" name="lineOff" x1="-.5" y1="-.5" x2=".5" y2=".5" stroke="black" stroke-width=".1"/>
+
+
+<line style="visibility:hidden" name="lineDisabled" x1=".5" y1="-.5" x2="-.5" y2=".5" stroke="black" stroke-width=".1"/>
+
+
+<circle style="visibility:hidden" name="circleDefective" cx="0" cy="0" r=".7" stroke="crimson" stroke-width=".2" fill="none"/>
+
+
+<line style="visibility:hidden" name="lineDefective" x1="-.5" y1="-.5" x2=".5" y2=".5" stroke="crimson" stroke-width=".08"/>
+
+
+</g><g id="control1511362510561" transform="matrix(0.4 0 0 0.4 346 50)" pointer-events="null">
+
+
+<line stroke="none" strokeCode="1" stroke-width="2" x1="0" y1="-60" x2="0" y2="60" name="SpineCenterLine"/>
+
+
+<ellipse fill="#228B22" stroke="#9966CC" fillCode="131" strokeCode="9" stroke-width="4" cx="0" cy="0" rx="76" ry="32"/>
+
+
+</g><g id="pilotLight1511362537450" transform="translate(344 50)scale(10)" pointer-events="null" myStatus="ON">
+
+
+<circle id="pilotLight" cx="0" cy="0" r="1" fill="url(#greenGradient)"/>
+
+
+<line style="visibility:hidden" name="lineOff" x1="-.5" y1="-.5" x2=".5" y2=".5" stroke="black" stroke-width=".1"/>
+
+
+<line style="visibility:hidden" name="lineDisabled" x1=".5" y1="-.5" x2="-.5" y2=".5" stroke="black" stroke-width=".1"/>
+
+
+<circle style="visibility:hidden" name="circleDefective" cx="0" cy="0" r=".7" stroke="crimson" stroke-width=".2" fill="none"/>
+
+
+<line style="visibility:hidden" name="lineDefective" x1="-.5" y1="-.5" x2=".5" y2=".5" stroke="crimson" stroke-width=".08"/>
+
+
+</g></g></svg>
