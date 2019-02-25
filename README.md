@@ -13,5 +13,5 @@ You may then create/save/edit SVG Iot/SCADA drawings.
 
 To preview how this application works go to: http://svg-iot.com
 
-NOTE:To store your svg images for the Component and Schematic libraries, the Windows IIS must have 
+NOTE:To store your svg images for the Component library, the Windows IIS must have 
 ASP files activated (See Wiki for a description how to do this).
