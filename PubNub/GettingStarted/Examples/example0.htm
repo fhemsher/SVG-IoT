@@ -47,7 +47,7 @@ The IoT has both a <b>Subscribe</b> and <b>Publish</b> value, available on a cli
 </center><p></p>
 
    <b>Sequence Of Operation:</b><p></p>
-Initially the status field device is shown as open contact.
+Initially the status field device is shown as open contact, with the SCADA Pilot Light as red.
 
 The field device contact is monitored as opened/closed.<br>
 
@@ -105,7 +105,10 @@ function initIot()
     {
         status: function(statusEvent)
         {
-            connectedSpan.innerHTML="...CONNECTED..."
+            connectedSpan.innerHTML="<i>...CONNECTED...</i>"
+            offRadio.checked=true
+            pilotLight.setAttribute("fill","url(#gradientRed)")
+            initSubscribeOnOff()
         }
     })
 
@@ -113,6 +116,7 @@ function initIot()
     pubnub.subscribe(
     {
         channels: [Status]
+
     });
 
    initButton.disabled=true
@@ -120,9 +124,6 @@ function initIot()
    offRadio.disabled=false
 
 }
-
-
-
 
 //===================PUBLISH==================
 //---ON or OFF radio button clicked---
@@ -145,7 +146,7 @@ function publishOnOff(msg)
 }
 
 //============SUBSCRIBE================
-
+var subscribeOnOff
 function initSubscribeOnOff()
 {
     subscribeOnOff = new PubNub(
@@ -177,6 +178,8 @@ function scadaStatus(msg)
         pilotLight.setAttribute("fill","url(#gradientRed)")
 }
 
+</script>
+<script>
 
 function showSource()
 {
@@ -200,8 +203,6 @@ function closeSource()
 
    d3.select(parent.frame0).transition().duration(1000).attr("height",880)
 }
-
-
 
 </script>
 
