@@ -346,6 +346,7 @@ The facility's  server is a typical web server that holds SCADA images plus Java
 
 <iframe id=frame0 src='Examples/example0.htm' width=1200 height=650 style="border:3px solid gainsboro" ></iframe>
 <iframe id=frame0a src='Examples/example0a.htm' width=1200 height=650 style="border:3px solid gainsboro" ></iframe>
+<iframe id=frame0b src='Examples/example0b.htm' width=1200 height=650 style="border:3px solid gainsboro" ></iframe>
 
 <h3 style=color:red >Four(4) Basic SCADA Examples:</h3>
 <iframe id=frame1 src='Examples/example1a.htm' width=1200 height=650 style="border:3px solid gainsboro" ></iframe>
@@ -367,6 +368,9 @@ The facility's  server is a typical web server that holds SCADA images plus Java
 document.addEventListener("onload",init(),false)
 function init()
 {
+   frame0.width=screen.width-80
+   frame0a.width=screen.width-80
+   frame0b.width=screen.width-80
    frame1.width=screen.width-80
    frame2.width=screen.width-80
    frame3.width=screen.width-80
@@ -379,13 +383,6 @@ function init()
 
 }
 
-function closeFrame(num)
-{
-  eval("frame"+num)
-
-
-
-}
 
 
 </script>
