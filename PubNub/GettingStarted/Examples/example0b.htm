@@ -50,7 +50,7 @@ Use PubNub's <a href="https://www.pubnub.com/docs/web-javascript/api-reference-s
 </center><p></p>
 
    <b>Sequence Of Operation:</b><p></p>
-The field device is a Infrared Temperature Transmitter with a span from 0 to 500 &deg;.
+The field device is a Infrared Temperature Transmitter with a span from 0 to 500 &deg;F.
 <br>
 
 
@@ -72,7 +72,7 @@ Adjust the slider below to the simulate the change of the device output value.  
     <table id=historyTable border=1 cellpadding=3 style=border-collapse:collapse >
     <tr>
     <td>#</td>
-    <td>timetoken (to Local)</td>
+    <td>timetoken (to Locale)</td>
     <td>&deg;F</td>
    </tr>
     </table>
@@ -155,7 +155,7 @@ function publishTemperature(msg)
 
         var publishConfig =
         {
-            channel : Temperature ,  //---unique for this viewer "Status"+timeStamp---
+            channel : Temperature ,  //---unique for this viewer "Temperature"+timeStamp---
             message :msg
         }
         pubnub.publish(publishConfig)
@@ -218,28 +218,24 @@ function getHistory()
             if (msgs != undefined && msgs.length > 0) {
                  for(var k=0;k<msgs.length;k++)
                  {
-                    var entry=msgs[k].entry
+                    var entry=msgs[k].entry //---published Temperature---
                     var timeStamp=+msgs[k].timetoken
 
                    var row= historyTable.insertRow()
                    var num=row.insertCell(0).innerHTML=k+1
 
-                   var local=new Date(timeStamp/1e4).toLocaleString();
+                   var locale=new Date(timeStamp/1e4).toLocaleString();
 
-                   var timeCell=row.insertCell(1).innerHTML=local
+                   var timeCell=row.insertCell(1).innerHTML=locale
                    var entryCell=row.insertCell(2).innerHTML=entry
 
                  }
-
-
-
-
 
             }
         }
     );
 
-historyButton.disabled=true
+    historyButton.disabled=true
 }
 </script>
 <script>
