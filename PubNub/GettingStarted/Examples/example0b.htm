@@ -250,7 +250,7 @@ function showSource()
 
   var frameHeight=container.scrollHeight+100
 
-    d3.select(parent.frame0a).transition().duration(1000).attr("height",frameHeight)
+    d3.select(parent.frame0b).transition().duration(1000).attr("height",frameHeight)
 
 
 }
@@ -261,7 +261,7 @@ function closeSource()
    setTimeout('sourceDiv.style.visibility="hidden"',1000)
   closeSourceButton.disabled=true
 
-   d3.select(parent.frame0a).transition().duration(1000).attr("height",880)
+   d3.select(parent.frame0b).transition().duration(1000).attr("height",880)
 }
 
 </script>
