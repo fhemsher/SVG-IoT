@@ -72,7 +72,7 @@ Adjust the slider below to the simulate the change of the device output value.  
     <table id=historyTable border=1 cellpadding=3 style=border-collapse:collapse >
     <tr>
     <td>#</td>
-    <td>timetoken</td>
+    <td>timetoken (to GMT)</td>
     <td>message</td>
    </tr>
     </table>
@@ -219,11 +219,14 @@ function getHistory()
                  for(var k=0;k<msgs.length;k++)
                  {
                     var entry=msgs[k].entry
-                    var timeStamp=msgs[k].timetoken
+                    var timeStamp=+msgs[k].timetoken
 
                    var row= historyTable.insertRow()
                    var num=row.insertCell(0).innerHTML=k+1
-                   var timeCell=row.insertCell(1).innerHTML=timeStamp
+
+                   var utc=new Date(timeStamp/1e4);
+
+                   var timeCell=row.insertCell(1).innerHTML=utc
                    var entryCell=row.insertCell(2).innerHTML=entry
 
                  }
