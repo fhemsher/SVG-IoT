@@ -72,8 +72,8 @@ Adjust the slider below to the simulate the change of the device output value.  
     <table id=historyTable border=1 cellpadding=3 style=border-collapse:collapse >
     <tr>
     <td>#</td>
-    <td>timetoken (to GMT)</td>
-    <td>message</td>
+    <td>timetoken (to Local)</td>
+    <td>&deg;F</td>
    </tr>
     </table>
     </div>
@@ -224,9 +224,9 @@ function getHistory()
                    var row= historyTable.insertRow()
                    var num=row.insertCell(0).innerHTML=k+1
 
-                   var utc=new Date(timeStamp/1e4);
+                   var local=new Date(timeStamp/1e4).toLocaleString();
 
-                   var timeCell=row.insertCell(1).innerHTML=utc
+                   var timeCell=row.insertCell(1).innerHTML=local
                    var entryCell=row.insertCell(2).innerHTML=entry
 
                  }
