@@ -27,6 +27,8 @@ function showSourceSVG()
 }
 function showSaveSVG()
 {
+
+
     svgSaveDiv.style.height="1px"
     var saveSVG = mySVG.cloneNode(true)
     saveSVG.setAttribute("id", "schematicSVG")
@@ -99,7 +101,16 @@ function showSaveSVG()
 
     hljs.highlightBlock(sCode);
 
-    svgSaveDiv.style.height = +svgSaveDiv.scrollHeight+"px"
+    svgSaveDiv.style.height = +svgSaveDiv.scrollHeight+30+"px"
+
+
+}
+
+function closeSvgSave()
+{
+    svgSaveDiv.style.height = "0px"
+     svgSaveDiv.innerHTML =""
+
 
 
 }
