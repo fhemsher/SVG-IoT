@@ -59,7 +59,7 @@ Type:<select onchange=unicodeTypeSelected() id="unicodeTypeSelect">
         Then click the desired icon button.
         Choose its size &amp; color.
         Then click on drawing to plant it.
-        <br>You may also add a comment to the Icon.
+
 
          </i>
 
@@ -160,6 +160,9 @@ function plantThisIcon(event)
 
 
     }
+
+    parent.EditIcon=false
+    parent.IconDeleted=false
     parent.Unicode=PlantUnicode
 }
 
@@ -207,8 +210,10 @@ function writeIconColorSelection()
         option.style.backgroundColor=myColor
         option.value=myColor
         option.title=name+" "+myColor
+                if(parent.hexString.indexOf(myColor)!=-1)
+        option.style.color="white"
 
-        option.text=k+1
+        option.text=k
         drawIconFillColorSelect.appendChild(option)
         /*
         var option=document.createElement("OPTION")
@@ -220,7 +225,7 @@ function writeIconColorSelection()
         drawIconStrokeColorSelect.appendChild(option)
         */
     }
-    drawIconFillColorSelect.selectedIndex=44
+    drawIconFillColorSelect.selectedIndex=353
   //	drawIconStrokeColorSelect.selectedIndex=23
     var clr=drawIconFillColorSelect.options[drawIconFillColorSelect.selectedIndex].value
     drawIconFillBg.style.backgroundColor=clr

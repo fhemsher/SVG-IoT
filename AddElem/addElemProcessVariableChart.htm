@@ -137,6 +137,8 @@ function writeProcessVariableChartColorSelection()
 		option.style.backgroundColor=myColor
 		option.value=myColor
 		option.title=name+" "+myColor
+                if(parent.hexString.indexOf(myColor)!=-1)
+        option.style.color="white"
 		option.text=k
         faceColorProcessVariableChartSelect.appendChild(option)
 
@@ -145,7 +147,7 @@ function writeProcessVariableChartColorSelection()
 
 	}
 
-    faceColorProcessVariableChartSelect.selectedIndex=22  //---gold---
+    faceColorProcessVariableChartSelect.selectedIndex=39  //---gold---
     var clr=faceColorProcessVariableChartSelect.options[faceColorProcessVariableChartSelect.selectedIndex].value
    faceColorBg.style.backgroundColor=clr
 

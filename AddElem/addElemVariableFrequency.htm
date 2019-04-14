@@ -93,6 +93,8 @@ function writeVariableFrequencyColorSelection()
 		option.style.backgroundColor=myColor
 		option.value=myColor
 		option.title=name+" "+myColor
+                if(parent.hexString.indexOf(myColor)!=-1)
+        option.style.color="white"
 		option.text=k
         faceColorVariableFrequencySelect.appendChild(option)
 
@@ -101,7 +103,7 @@ function writeVariableFrequencyColorSelection()
 
 	}
 
-    faceColorVariableFrequencySelect.selectedIndex=22  //---gold---
+    faceColorVariableFrequencySelect.selectedIndex=39  //---gold---
     var clr=faceColorVariableFrequencySelect.options[faceColorVariableFrequencySelect.selectedIndex].value
    faceColorBg.style.backgroundColor=clr
 

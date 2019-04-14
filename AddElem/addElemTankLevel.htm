@@ -120,6 +120,8 @@ function writeTankLevelColorSelection()
 		option.style.backgroundColor=myColor
 		option.value=myColor
 		option.title=name+" "+myColor
+                if(parent.hexString.indexOf(myColor)!=-1)
+        option.style.color="white"
 		option.text=k
         faceColorSelect.appendChild(option)
 
@@ -127,6 +129,8 @@ function writeTankLevelColorSelection()
 		option.style.backgroundColor=myColor
 		option.value=myColor
 		option.title=name+" "+myColor
+                if(parent.hexString.indexOf(myColor)!=-1)
+        option.style.color="white"
 		option.text=k
        barTankColorSelect.appendChild(option)
 
@@ -137,7 +141,7 @@ function writeTankLevelColorSelection()
     var clr=faceColorSelect.options[faceColorSelect.selectedIndex].value
    faceColorBg.style.backgroundColor=clr
 
-   barTankColorSelect.selectedIndex=143  //---black---
+   barTankColorSelect.selectedIndex=1  //---black---
    var clr=barTankColorSelect.options[barTankColorSelect.selectedIndex].value
    barTankColorBg.style.backgroundColor=clr
 

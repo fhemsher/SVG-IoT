@@ -75,7 +75,7 @@ HMI Symbol SVG Source:<input type=checkbox  title="Show SVG source for this elem
     <button style='background-color:red;visibility:hidden' id=drawGaugeDeleteButton  onClick=parent.removeCurrentDrawGauge()>delete</button>
 	<button id=drawGaugeTopButton style=background:white;font-size:120%;font-weight:bold;color:maroon;visibility:hidden  title='Move to top' onClick=parent.topDrawGauge()>&#x21E7;</button>
 	<button id=drawGaugeBotButton style=background:white;font-size:120%;font-weight:bold;color:maroon   title='Move to bottom' onClick=parent.botDrawGauge()>&#x21E9;</button>
-    <button title='Preview change(s)' style='background-color:orange;visibility:hidden' id=editGaugePreviewButton onClick=parent.editGaugePreviewDrawGauge()>preview</button>
+    <button title='Preview change(s)' disabled id=previewGaugeButton onClick=parent.previewDrawGauge()>preview</button>
 
     <button id=drawGaugeFinishButton disabled onClick=parent.finishDrawGauge()>finish</button>
 </td>
@@ -98,6 +98,8 @@ function writeGaugeColorSelection()
 		option.style.backgroundColor=myColor
 		option.value=myColor
 		option.title=name+" "+myColor
+                if(parent.hexString.indexOf(myColor)!=-1)
+        option.style.color="white"
 		option.text=k
         faceColorGaugeSelect.appendChild(option)
 
@@ -105,6 +107,8 @@ function writeGaugeColorSelection()
 		option.style.backgroundColor=myColor
 		option.value=myColor
 		option.title=name+" "+myColor
+                if(parent.hexString.indexOf(myColor)!=-1)
+        option.style.color="white"
 		option.text=k
        ringColorSelect.appendChild(option)
 
@@ -118,7 +122,7 @@ function writeGaugeColorSelection()
 
 	}
 	ringColorSelect.selectedIndex=45
-	faceColorGaugeSelect.selectedIndex=23
+	faceColorGaugeSelect.selectedIndex=49
 
 	var clr=ringColorSelect.options[ringColorSelect.selectedIndex].value
    ringColorBg.style.backgroundColor=clr

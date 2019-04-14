@@ -66,9 +66,9 @@ HMI Symbol SVG Source:<input type=checkbox  title="Show SVG source for this elem
 <td>
 	<button id=drawTrendGaugeCancelButton disabled title='cancel/remove this circle' onClick=parent.cancelDrawTrendGauge()>cancel</button>
     <button style='background-color:red;visibility:hidden' id=drawTrendGaugeDeleteButton  onClick=parent.removeCurrentDrawTrendGauge()>delete</button>
-    <button title='Preview change(s)' style='background-color:orange;visibility:hidden' id=editTrendGaugePreviewButton onClick=parent.editTrendGaugePreviewDraw()>preview</button>
 	<button id=drawTrendGaugeTopButton style=background:white;font-size:120%;font-weight:bold;color:maroon;visibility:hidden  title='Move to top' onClick=parent.topDrawTrendGauge()>&#x21E7;</button>
 	<button id=drawTrendGaugeBotButton style=background:white;font-size:120%;font-weight:bold;color:maroon   title='Move to bottom' onClick=parent.botDrawTrendGauge()>&#x21E9;</button>
+     <button title='Preview change(s)' disabled id=previewTrendGaugeButton disabled onClick=parent.previewDrawTrendGauge()>preview</button>
 
     <button id=drawTrendGaugeFinishButton disabled onClick=parent.finishDrawTrendGauge()>finish</button>
 </td>
@@ -92,6 +92,8 @@ function writeTrendGaugeColorSelection()
 		option.style.backgroundColor=myColor
 		option.value=myColor
 		option.title=name+" "+myColor
+                if(parent.hexString.indexOf(myColor)!=-1)
+        option.style.color="white"
 		option.text=k
         trendGaugeFaceColorSelect.appendChild(option)
 
@@ -99,6 +101,8 @@ function writeTrendGaugeColorSelection()
 		option.style.backgroundColor=myColor
 		option.value=myColor
 		option.title=name+" "+myColor
+                if(parent.hexString.indexOf(myColor)!=-1)
+        option.style.color="white"
 		option.text=k
        trendGaugeRingColorSelect.appendChild(option)
 
@@ -112,7 +116,7 @@ function writeTrendGaugeColorSelection()
 
 
  	trendGaugeRingColorSelect.selectedIndex=45
-	trendGaugeFaceColorSelect.selectedIndex=23
+	trendGaugeFaceColorSelect.selectedIndex=49
 
 	var clr=trendGaugeRingColorSelect.options[trendGaugeRingColorSelect.selectedIndex].value
    trendGaugeRingColorBg.style.backgroundColor=clr
