@@ -4,7 +4,7 @@
 
 <head> <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-  <title>SVG Process Control Diagrams &amp;  Specify IoT/SCADA Performance</title>
+  <title>SVG Process Control Diagrams &amp; Specify IoT/SCADA Performance</title>
   <script type="text/javascript" src="highlight.pack.js"></script>
   <link href='highlight5000.css' rel='stylesheet' />
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -60,9 +60,6 @@ onmousedown="return false;"
 <div id=addElemIconFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemIconFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
 	<script charset="UTF-8" type="text/javascript" src="AddElem/Icon/drawIcon.js"></script>
     <script charset="UTF-8" type="text/javascript" src="js03_drag/dragObjIcon.js"></script>
-<div id=addElemImageFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemImageFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
-	<script charset="UTF-8" type="text/javascript" src="AddElem/Image/drawImage.js"></script>
-    <script charset="UTF-8" type="text/javascript" src="js03_drag/dragObjImage.js"></script>
 <div id=addElemCircleFrameDiv style='padding:10px;border-radius:10px;position:fixed;visibility:hidden;width:1px;height:1px;overflow:hidden'><iframe id=addElemCircleFrame style='border-width:0px;height:1px;overflow:hidden;'   scrolling='no' frameborder='0'   ></iframe></div>
 	<script charset="UTF-8" type="text/javascript" src="AddElem/Circle/drawCircle.js"></script>
     <script charset="UTF-8" type="text/javascript" src="js03_drag/dragObjCircle.js"></script>
@@ -329,6 +326,7 @@ stroke: DarkViolet;
 
 <TABLE style=width:800px;><TR>
  <TD>
+  <button title="Show current drawing's SVG source" onClick=removeSCADA();svgCopy()>SVG Source</button>
   <button title="Copy SVG for other applications" onClick=removeSCADA();publishSVG()>Publish</button>
   <button id=clearButton title="Clear current SVG drawing"  onClick=removeSCADA();clearButtonClicked() >Clear/Start Over</button>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </TD>
 <TD>
@@ -373,11 +371,8 @@ stroke: DarkViolet;
 </TR>
 </TABLE>
 <center>
-
-<div  id=svgSaveDiv title="Click to close raw SVG Source"  onclick=closeSvgSave() class="copySource" style=display:none;height:1px;overflow:auto;width:1200px;text-align:left; /></div>
-
-
-<div id=svgSourceDiv style=display:none;overflow:auto;width:1200px;text-align:left; /></div>
+<div id=svgSaveDiv class="copySource" style=display:none;height:1px;overflow:auto;width:1200px;text-align:left; /></div>
+  <div id=svgSourceDiv style=display:none;overflow:auto;width:1200px;text-align:left; /></div>
 
   <div id=hmiSourceContainer style='background:#ABCDEF;border:1px solid black;border-radius:10px; padding:10px;position:fixed;top:300px;left:0px;display:none;width:360px;height:360px;text-align:left;' >
          <table style=width:100%><tr><td align=center style=width:90%>HMI Element SVG Source</td><td align=right><button onClick=closeHMISource()>X</button></td></tr></table>
@@ -395,11 +390,11 @@ stroke: DarkViolet;
 <div id=svgHMIcloneDiv style=display:none></div>
 </DIV>
 <div id=hmiIntroDiv style='position:absolute;top:60px;left:10px;width:360px;background:white;border:1px solid blue;border-radius:15px;padding:10px;color:midnightblue'>
-<center><b><a href="https://www.w3schools.com/html/html5_svg.asp" title="SVG Process Control Diagrams W3C Standards" target="_blank" >SVG</a> Process Control Diagrams<br>&amp; Specify <a href="https://en.wikipedia.org/wiki/SCADA" title="SVG Process Control SCADA Specifications" target="_blank" >SCADA</a> Performance</b></center><p></p>
+<center><b><a href="https://www.w3schools.com/html/html5_svg.asp" title="SVG Process Control Diagrams W3C Standards" target="_blank" >SVG</a> Process Control Diagrams<br>&amp; Specify <a href="https://en.wikipedia.org/wiki/SCADA" title="SVG Process Control SCADA Specifications" target="_blank" >IoT/SCADA</a> Performance</b></center><p></p>
 <div style=text-align:justify; ><i>Create  process control diagrams using standard svg shape elements.  Libraries are provided where ISA symbols, components, and process equipment are available for your use.
 <p></p>Your associated SCADA drawings can also be created in SVG format, with you specifying their dynamic aspects. Included are HMI (Human-Machine Interface) symbols used to define
 various dynamic features within your SCADA drawing. Vendors can therefore provide your specified dynamic SCADA, conforming to <a href="https://www.w3.org/standards/webdesign/graphics.html" title="SVG Process Control SCADA Web Design W3C Standards" target="_blank" >W3C graphical web standards</a> for SVG + JavaScript.
-<p></p> To <a href="VendorSubmission/vendorSubmission.htm" target=_blank >meet your specifications</a> the completed project would then consist of SCADA dynamic drawings, its <a href="DataAcquisition/dataAcquisition.htm" target=_blank>data acquisitions</a>, plus user interface selections: All distributed within a <a href="https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-82r2.pdf" title="Guide To SCADA Security" target="_blank">secure</a> internet/intranet environment, conforming to <a href="https://en.wikipedia.org/wiki/Web_standards" title="SVG Schematics  W3C Standards" target="_blank" >W3C standards</a>.
+<p></p> To meet your specifications the completed project would then consist of SCADA dynamic drawings, its data acquisitions, plus user interface selections: All distributed within a <a href="https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-82r2.pdf" title="Guide To SCADA Security" target="_blank">secure</a> internet/intranet environment, conforming to <a href="https://en.wikipedia.org/wiki/Web_standards" title="SVG Schematics  W3C Standards" target="_blank" >W3C standards</a>.
 </i></div>
 <p></p>
 <img src="Images/controlDiagram.png" alt="SCADA Control Diagram" width="360" height="271" />
@@ -408,26 +403,24 @@ various dynamic features within your SCADA drawing. Vendors can therefore provid
 <a href="zHMI/CascadeFixedBed/cascadeFixedBed.htm" target="_blank" title="SCADA Fixed Bed Reactor"  >Fixed Bed Reactor</a><br>
 <a href="zHMI/Laboratory/laboratory.htm" target="_blank" title="SCADA Laboratory Environmental Control"  >Laboratory Environmental Control</a><br>
 <a href="http://svgDiscovery.com/HMI/Animation/examplesAnimateSCADA.htm" title="SCADA Animation"  target="_blank"> SCADA Animation Examples </a><br>
-<a href="PubNub/GettingStarted/gettingStarted.htm" title="Getting Started: SVG SCADA via the DSN"  target="_blank"><b>SVG SCADA &amp; Data Stream Network</b></a>
+<a href="PubNub/GettingStarted/gettingStarted.htm" title="Getting Started: SVG SCADA via the DSN"  target="_blank"><b>SVG SCADA &amp; IoT Data Stream Network</b></a>
 </center>
 </div>
 
 
 
 <div id=helpDiv style='text-align:justify;background:white;visibility:hidden;position:absolute;top:60px;left:10px;width:360px;height:1px;border:1px solid blue;border-radius:15px;padding:10px;overflow:hidden'>
-<table style=width:100%><td style=width:90%; align=center><span style="font-weight:bold;color:red;font-family:times new roman">SVG</span> <span style=color:blue><i>SCADA</i></span></td><td align=right><button onclick=closeHelp()>X</button></td></table>
+<table style=width:100%><td style=width:90%; align=center><span style="font-size:120%;font-weight:bold;color:red;font-family:times new roman">SVG</span> <span style="font-size:120%;color:blue;font-family:Times New Roman"><i><b>IoT</b></i></span></td><td align=right><button onclick=closeHelp()>X</button></td></table>
 <div style=text-align:justify>
-    As the Process Control designer, you can create associated static SVG SCADA drawings and specify
-    their dynamic performance. Vendors therefore will provide an interactive SVG SCADA system and its <a href="DataAcquisition/dataAcquisition.htm" target=_blank>data acquisitions</a> to
-<a href="VendorSubmission/vendorSubmission.htm" target=_blank >meet your specifications</a>. The resulting svg elements are animated using a cloud-based network for communication to/from field control devices and the SCADA operator's selections.
+SVG SCADA drawings are interactive. They are firstly
+created using standard SVG shape elements. The resulting svg elements are then animated using a network for communication to/from field control devices and the SCADA operator's selections.
 </div>
 <p></p>
 <div style=background:linen;padding:5px;>
 <center><h7><b>1.) Creating SVG Shape Elements</b></h7></center>
 
 <div style=text-align:justify> Each element includes its unique pane to set &amp; edit its specific values. Click on the element's button to use its pane to create and place the element in the drawing.
-<br><u><i> After an element is created, it can be edited by moving the cursor over the element, then <b>right-click</b> the mouse  button.</u></i>
-<center><img style=background:linen src="Images/rightClick.png" alt="" width="48" height="65" /></center>
+<u><i> After an element is created, it can be edited by moving the cursor over the element, then <b>right-click</b> the mouse  button.</u></i>
 </div>
 <p></p>
 <b>Paths</b> - Both linear and curved paths can be created by clicking their points on the drawing. Drag any point to modify its shape.
@@ -447,21 +440,13 @@ various dynamic features within your SCADA drawing. Vendors can therefore provid
 <p></p><span style=padding:3px;background:#7df9ff>Process Equipment Library</span></center></div>
 <p></p> <span style=padding:3px;background:#D8E7F6><b>HMI Symbols</b></span> -  These symbols can be customized and inserted into your drawing. Also they can be programmed as interactive at  central monitoring (SCADA)  via SVG + JavaScript.
 </div><p></p>
-<center><h7><b>2.) SVG SCADA Via Data Stream Network</b></h7></center>
+<center><h7><b>2.) SVG SCADA & IoT Data Stream Network</b></h7></center>
 These are examples of communication to/from an operator's interactive SVG SCADA drawings.<br> It takes field transmitter values, equipment status, and client requests; sending this data to interact with the SVG SCADA drawing. It also obtains SCADA operator selections and sends the request to the associated field devices.
 JavaScript and SVG source are shown for each example.
 <center>
-<a href="PubNub/GettingStarted/gettingStarted.htm" title="Getting Started: SVG SCADA via the Data Stream Network"  target="_blank"><b>Getting Started</b></a>
+<a href="PubNub/GettingStarted/gettingStarted.htm" title="Getting Started: SVG SCADA & IoT Data Stream Network"  target="_blank"><b>Getting Started</b></a>
 
-</center><p></p>
-        <div style=background:gainsboro;font-size:80%;padding:10px;><i>
-        <center><b>Note to SVG SCADA Web Developers...</b></center>
-        There are many examples for dynamic SVG that can be applied to meeting the SCADA
-        specifications created by designers that use this application.
-        <p></p>
-        If you want to participate with a vendor to meet the SCADA specifications, then it
-        is advisable to review examples on how to create <a href="http://svgDiscovery.com" target="_blank">Dynamic SVG using JavaScript</a>.
-        </i></div>
+</center>
 
 </div>
 
@@ -470,12 +455,10 @@ JavaScript and SVG source are shown for each example.
 <center>
 
 
-<div id=selectDrawElemDiv style='width:100%;background:#f0f8ff;position:fixed;top:0px;left:0px;'><b><span style="font-size:140%;font-weight:bold;color:red;font-family:times new roman">SVG</span> <span style=font-size:140%;color:blue><i>IoT</i></span></b><button onClick=openHelp() style=width:25px;height:25px;padding:0px;border:0px;background:transparent ><img src="Images/help.png" alt="SVG SCADA Control Diagrams"  width=25 height=25 /></button>
+<div id=selectDrawElemDiv style='width:100%;background:#f0f8ff;position:fixed;top:0px;left:0px;'><b><span style="font-size:140%;font-weight:bold;color:red;font-family:times new roman">SVG</span> <span style="font-family:times new roman;font-size:140%;color:blue"><i><b>IoT</b></i></span></b><button onClick=openHelp() style=width:25px;height:25px;padding:0px;border:0px;background:transparent ><img src="Images/help.png" alt="SVG SCADA Control Diagrams"  width=25 height=25 /></button>
 &nbsp; &nbsp; &nbsp; &nbsp; <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=getIsaLibraryButton  style=background-color:#E0CAEA onClick=getIsaLibrary()>ISA Symbol Library</button><img id=openIsaButton onClick=openIsaHelp() align=center src="Images/help.png"  width=20 height=20  alt="SVG ISA SCADA Control Schematics" />
 &nbsp; &nbsp; &nbsp; &nbsp; <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=getComponentLibraryButton  style=background-color:#C3E6D3 onClick=getComponentLibrary()>Component Library</button><img id=openProcessButton onClick=openComponentHelp() align=center src="Images/help.png"  width=20 height=20  alt="SVG SCADA Control Components" />
 &nbsp; &nbsp; &nbsp; &nbsp; <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=getProcessLibraryButton  style=background-color:#7df9ff onClick=getProcessLibrary()>Process Equipment Library</button><img id=openProcessButton onClick=openProcessHelp() align=center src="Images/help.png"  width=20 height=20  alt="SVG SCADA Control Process Equipment" />
-            &nbsp; &nbsp; &nbsp;&nbsp;
-            <button title="Import image from your computer as background template" onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddBGImageButton   style=background-color:ghostwhite onClick=openAddBGImage()   >Template Image</button>
 
 
 
@@ -507,13 +490,14 @@ JavaScript and SVG source are shown for each example.
             <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddPathButton  style=background-color:linen onClick=openAddPathDraw()>Paths</button>
             <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddPolygonButton  style=background-color:linen onClick=openAddPolygonDraw()>Polygons</button>
             <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddIconButton  style=background-color:linen onClick=openAddIconDraw()>Icons</button>
-            <button title="Add images from your computer"  onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddImageButton  style=background-color:linen onClick=openAddImageDraw()>Images</button>
                          <button onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddSymbolButton  style=background-color:#538BBA;color:white onClick=openAddSymbolDraw()>Symbols</button>
 
    &nbsp;&nbsp;<button title="Add pattern/texture fill to elements" onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddTextureButton  style=background-color:linen onClick=openAddTexture()><i>Textures</i></button>
             <button title="Add Gradients" onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddGradientButton  style=background-color:linen onClick=openAddGradient()><i>Gradients</i></button>
              &nbsp;&nbsp;
             <button title="Create a component" onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddComponentButton   style=background-color:#C3E6D3 onClick=openAddComponentDraw();startComponentDraw()   ><i>Components</i></button>
+             &nbsp;&nbsp;
+            <button title="Import image from your computer as background template" onmouseover=this.style.borderColor="lime" onmouseout=this.style.borderColor=''  id=openAddBGImageButton   style=background-color:ghostwhite onClick=openAddBGImage()   >Template Image</button>
   </div>
 </center>
 
@@ -559,6 +543,8 @@ Then <b>right-click</b> on the added symbol to drag, copy, color, and resize it.
  Copy this library for your use: <a href="LIBRARY/Isa.svg" target="_blank">Isa.svg</a>
 
 </div>
+
+
 
 
 
@@ -622,7 +608,9 @@ Selecting this will show the process images currently in the library. Click on t
 <center><b>HMI SVG Symbols</b></center>
 <div style=text-align:justify >This shows a list of current  Human-Machine-Interface symbols used both in process control design, and the associated graphics at  central monitoring (SCADA).
 Each symbol  can be customized and inserted into your SVG control drawing.<br>
-Click image to see an  interactive example of how it is configured and applied dynamically for  central monitoring (SCADA).
+Click image to see an  interactive example of how it is configured and applied at  central monitoring (SCADA).
+<br><i style=font-size:80%>Each symbol at central monitoring (SCADA) can be programmed as interactive via SVG + JavaScript</i><br>
+<center><a title="Animating SCADA Displays" href="http://svgDiscovery.com/HMI/Animation/examplesAnimateSCADA.htm" target="_blank"> SCADA Animation Examples </a></center><p></p>
 </div>
 <TABLE border=1 style=border:100%;border-collapse:collapse>
 <TR><TD>
@@ -828,15 +816,14 @@ It includes a slider to set the output signal during Manual selection.
 <button title="Close HMI Table" id=hmiTableCloseButton onmouseover=this.style.background="red"  onmouseout=this.style.background=""  style='visibility:hidden;position:fixed;top:65px;left:350px' onclick=closeHMIHelp() >X</button>
 
 
-<div id=zoomButtonDiv style='position:fixed;top:5px;left:95%'><button onClick=zoomDrawing() title="Mousewheel Zoom Drawing" id=zoomButton style='background:transparent;border:0px;width:30px;height:30px;padding:0px'><img src="Images/zoomButton.png" width=25 height=25 alt="SVG HMI Zoom SCADA Graphs"   /></button> <button onClick=openZoomHelp() style=width:20px;height:20px;padding:0px;border:0px;background:transparent ><img src="Images/help.png"  width=20 height=20 alt="Zoom Scada Drawing"   /></button>   </div>
+<div style='position:fixed;top:5px;left:95%'><button onClick=zoomDrawing() title="Mousewheel Zoom Drawing" id=zoomButton style='background:transparent;border:0px;width:30px;height:30px;padding:0px'><img src="Images/zoomButton.png" width=25 height=25 alt="SVG HMI Zoom SCADA Graphs"   /></button> <button onClick=openZoomHelp() style=width:20px;height:20px;padding:0px;border:0px;background:transparent ><img src="Images/help.png"  width=20 height=20 alt="Zoom Scada Drawing"   /></button>   </div>
 
 <div id=zoomHelpDiv style='background:white;visibility:hidden;position:fixed;top:60px;left:70%;width:300px;height:1px;border:1px solid blue;border-radius:5px;padding:10px;overflow:hidden'>
     <table style=width:100%><td style=width:90%; align=center><h7><b>Mousewheel Zoom</b></h7></td><td align=right><button onclick=closeZoomHelp()>X</button></td></table>
     <div style=text-align:justify>
-    Select this to zoom into the drawing via the mousewheel.<p></p>When zoomed you may drag/drop any SVG shape element: With the cursor
+    Select this to zoom into the drawing via the mousewheel.<p></p>When zoomed you may drag/drop any element: With the cursor
     over the element <b>right-click</b> the mouse button, then drag the element.
-    <p></p>To close the Mousewheel zoom feature, click the red zoom button symbol:
-    <img style=width:20px;height:20px;background:red; src="Images/zoomButton.png" alt="" />
+    <p></p>To close the Mousewheel zoom feature, click the red zoom button symbol.
     </div>
 </div>
 <div id=publishMobileDiv style='background:lightgreen;visibility:hidden;position:fixed;top:80px;left:40%;width:400px;height:1px;border:1px solid blue;border-radius:5px;padding:10px;overflow:hidden'>
@@ -1000,7 +987,7 @@ function writeEM()
     em+="gm"
     em+="ail."
     em+="com"
-   emDiv.innerHTML=em +" &nbsp;&nbsp;<span style=color:maroon>Last Update: 04/03/2019</span>"
+   emDiv.innerHTML=em +" &nbsp;&nbsp;<span style=color:maroon>Last Update: 03/01/2019</span>"
 
 }
 function openMobileHelp()
