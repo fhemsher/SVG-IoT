@@ -36,7 +36,8 @@ function zoomDrawing()
        ZoomDrawing=true
        closeAllFrames()
        disableAllButtons()
-       mySVG.appendChild(domDrawX) 
+       mySVG.appendChild(domDrawX)
+        zoomButtonDiv.style.visibility="visible"
    }
    else
       {
@@ -67,10 +68,11 @@ function zoomDrawing()
 
             var downmouse=ZoomDraggedElems[k][1]
             var classed=ZoomDraggedElems[k][2]
-            elem.setAttribute("onmousedown",downmouse)
-            elem.setAttribute("style","cursor:default")
-            elem.setAttribute("class",classed)
-            elem.removeAttribute("opacity")
+
+                    elem.setAttribute("onmousedown",downmouse)
+                    elem.setAttribute("style","cursor:default")
+                    elem.setAttribute("class",classed)
+                    elem.removeAttribute("opacity")
 
         }
 
