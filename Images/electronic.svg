@@ -1,0 +1,404 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="publishSVG" width="350" height="250" viewBox="0 0 350 250" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><style xmlns="http://www.w3.org/1999/xhtml"></style><defs xmlns="http://www.w3.org/1999/xhtml"></defs>
+    
+<g id="publishG"><g id="publishElemG" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><g transform="matrix(1 0 0 1 4.83727 7.99999)" parentid="component1005">
+        <rect x="39" y="-1" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="39" y="59" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="-1" y="29" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <ellipse cx="31" cy="33" rx="24.813632765" ry="24.813632765" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <path d="M 3.15 30.14 L 15.25 30.14" fill="#000000" stroke="#000000" stroke-width="1.3" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 15.87 33.5 L 25.08 40.21" fill="none" stroke="#000000" stroke-width="1.28" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 15.87 26.79 L 25.08 20.08" fill="none" stroke="#000000" stroke-width="1.28" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 25.71 20.04 L 39.44 20.04" fill="#000000" stroke="#000000" stroke-width="1.27" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 15.87 18.74 L 15.87 41.55" fill="none" stroke="#000000" stroke-width="1.28" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="25.87" y="39.87" width="4.26" height="0.55" fill="none" stroke="#000000" pointer-events="none"/>
+        <path d="M 30.86 43.5 L 40.07 50.21" fill="none" stroke="#000000" stroke-width="1.28" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 30.86 36.79 L 40.07 30.08" fill="none" stroke="#000000" stroke-width="1.28" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 40.07 10.69 L 40.07 29.42" fill="#000000" stroke="#000000" stroke-width="1.27" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 40.07 50.89 L 40.07 54.61" fill="#000000" stroke="#000000" stroke-width="1.27" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 30.86 28.73 L 30.86 51.55" fill="none" stroke="#000000" stroke-width="1.28" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 40 1 L 40 9" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 40 56 L 40 59" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1 30 L 6 30" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="40" cy="20" rx="0.92843281" ry="0.92843281" fill="none" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <path d="M 23.02 36.25 L 20.85 39.34 L 25.55 40.34 Z" fill="#000000" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 37.32 45.94 L 35.16 49.03 L 39.86 50.03 Z" fill="#000000" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="-15" y="0" width="15" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+<rect id="cover" width="50" height="50" fill="white" fill-opacity="0" style="cursor: default;" vector-effects="non-scaling-stroke" stroke-width="6" stroke-opacity=".5"/></g><g transform="matrix(0.3 0 0 0.3 50.5515 4.23749)" parentid="component41z">
+		<path style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" d="M 72,51 L 185,51" id="path13144"/>
+		<use x="0" y="0" href="#path13144" id="use1318" transform="translate(0,78)" width="500" height="180"/>
+		<use x="0" y="0" href="#path13144" id="use2208" transform="translate(196.5757,39)" width="500" height="180"/>
+		<path id="rect2193" style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:7.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" d="M 135.67366,169.24997 C 135.54865,169.25544 173.11664,161.81425 173.11664,89.999999 C 173.11664,17.478772 135.6709,10.749695 135.67366,10.750027 C 196.16084,18.014053 235.55464,7.7267425 277.18432,90.000005 C 246.14327,162.74602 205.43421,166.19896 135.67366,169.24997 z "/>
+		<path style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" id="path2247" d="M 305.47014 89.843887 A 20.152544 20.152544 0 1 1  265.16505,89.843887 A 20.152544 20.152544 0 1 1  305.47014 89.843887 z" transform="translate(12.64507,0.156113)"/>
+		<rect id="cover" width="310" height="159" fill="white" fill-opacity="0" style="cursor: default;" vector-effects="non-scaling-stroke" stroke-width="6" stroke-opacity=".5"/>
+	</g><g transform="matrix(0.3 0 0 0.3 173 2)" parentid="component126">
+		<g id="layer1">
+			<text xml:space="preserve" style="font-size:18px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Serif;" x="55.113182" y="191.74957" id="text3336"><tspan id="tspan3338" x="55.113182" y="191.74957"/></text>
+			<text xml:space="preserve" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;" x="193.9944" y="185.52522" id="text3732"><tspan id="tspan3734" x="193.9944" y="185.52522"/></text>
+			<path style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" d="M 65,10 L 160,10 L 160,210 C 160,210 65,210 65,210 L 65,10 z" id="path1349"/>
+			<path style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 102.5,11.5 L 102.5,16.5 C 102.5,16.5 102.5,26.5 112.5,26.5 C 122.5,26.5 122.5,16.5 122.5,16.5 L 122.5,11.5 L 102.5,11.5" id="path6269"/>
+			<rect transform="matrix(0,1,-1,0,0,0)" y="-64.994354" x="25.105635" height="19.994352" width="19.935486" id="rect2943" style="fill:#729fcf;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate"/>
+			<text id="text2979" y="40.245941" x="54.957031" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="40.245941" x="54.957031" id="tspan2981">1</tspan></text>
+			<rect transform="matrix(0,1,-1,0,0,0)" y="-64.994354" x="50.022781" height="19.994352" width="19.935484" id="rect2965" style="fill:#729fcf;fill-opacity:1;stroke:#000000;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate"/>
+			<text id="text2983" y="65.32016" x="55.268066" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="65.32016" x="55.268066" id="tspan2985">2</tspan></text>
+			<rect transform="matrix(0,1,-1,0,0,0)" y="-64.994354" x="75.022781" height="19.994352" width="19.935484" id="rect2967" style="fill:#729fcf;fill-opacity:1;stroke:#000000;stroke-width:1.99999988000000010;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate"/>
+			<text id="text2987" y="90.202972" x="55.107422" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="90.202972" x="55.107422" id="tspan2989">3</tspan></text>
+			<rect transform="matrix(0,1,-1,0,0,0)" y="-64.994354" x="100.02278" height="19.994352" width="19.935484" id="rect2969" style="fill:#729fcf;fill-opacity:1;stroke:#000000;stroke-width:1.99999988000000010;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate"/>
+			<text id="text2991" y="115.19174" x="55.131348" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="115.19174" x="55.131348" id="tspan2993">4</tspan></text>
+			<rect transform="matrix(0,1,-1,0,0,0)" y="-64.994354" x="125.02277" height="19.994352" width="20.082865" id="rect2971" style="fill:#73d216;fill-opacity:1;stroke:#000000;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate"/>
+			<text id="text2995" y="140.07455" x="55.151855" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="140.07455" x="55.151855" id="tspan2997">5</tspan></text>
+			<rect y="-64.994354" x="149.9583" height="19.994352" width="19.939892" id="rect2973" style="fill:#73d216;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate" transform="matrix(0,1,-1,0,0,0)"/>
+			<text id="text2999" y="165.1488" x="55.032227" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="165.1488" x="55.032227" id="tspan3001">6</tspan></text>
+			<rect transform="matrix(0,1,-1,0,0,0)" y="-64.994354" x="175.02278" height="19.994352" width="19.935484" id="rect2975" style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate"/>
+			<text id="text3003" y="190.13754" x="55.104004" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="190.13754" x="55.104004" id="tspan3005">7</tspan></text>
+			<rect transform="matrix(0,1,-1,0,0,0)" y="-179.99435" x="175.06451" height="19.994352" width="19.935484" id="rect2977" style="fill:#729fcf;fill-opacity:1;stroke:#000000;stroke-width:1.99999988000000010;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate"/>
+			<rect transform="matrix(0,1,-1,0,0,0)" y="-180" x="25.129036" height="20" width="19.935484" id="rect3015" style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate"/>
+			<text id="text3035" y="40.372597" x="170.13803" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="40.372597" x="170.13803" id="tspan3037">14</tspan></text>
+			<rect transform="matrix(0,1,-1,0,0,0)" y="-180" x="50.129036" height="20" width="19.935484" id="rect3017" style="fill:#73d216;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate"/>
+			<text id="text3039" y="65.398666" x="170.30551" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="65.398666" x="170.30551" id="tspan3041">13</tspan></text>
+			<rect transform="matrix(0,1,-1,0,0,0)" y="-180" x="75.129028" height="20" width="19.935484" id="rect3019" style="fill:#73d216;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate"/>
+			<text id="text3043" y="90.530701" x="170.44565" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="90.530701" x="170.44565" id="tspan3045">12</tspan></text>
+			<rect transform="matrix(0,1,-1,0,0,0)" y="-180" x="100.12903" height="20" width="19.806458" id="rect3021" style="fill:#729fcf;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate"/>
+			<text id="text3047" y="115.47133" x="170.39096" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="115.47133" x="170.39096" id="tspan3049">11</tspan></text>
+			<rect transform="matrix(0,1,-1,0,0,0)" y="-180" x="125.12903" height="20" width="19.870968" id="rect3023" style="fill:#729fcf;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate"/>
+			<text id="text3051" y="140.49741" x="170.20981" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="140.49741" x="170.20981" id="tspan3053">10</tspan></text>
+			<rect transform="matrix(0,1,-1,0,0,0)" y="-180" x="150.12903" height="20" width="19.870968" id="rect3025" style="fill:#729fcf;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate"/>
+			<text id="text3055" y="165.29422" x="170.56528" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="165.29422" x="170.56528" id="tspan3057">9</tspan></text>
+			<g id="g3543" transform="matrix(0,-1,1,0,149.79542,173.61552)" style="text-align:start;text-anchor:start">
+				<text xml:space="preserve" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;" x="35.204582" y="-135.61552" id="text3413" transform="matrix(0,1,-1,0,0,0)"><tspan id="tspan3415" x="35.204582" y="-135.61552">V</tspan></text>
+				<text xml:space="preserve" style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;" x="41.371841" y="-131.01935" id="text3417" transform="matrix(0,1,-1,0,0,0)"><tspan id="tspan3419" x="41.371841" y="-131.01935" style="font-size:8px;text-align:start;text-anchor:start">DD</tspan></text></g>
+			<text id="text3551" y="38.735027" x="41.085938" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="38.735027" x="41.085938" id="tspan3553">X1</tspan></text>
+			<text id="text3563" y="63.758087" x="41.179684" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="63.758087" x="41.179684" id="tspan3565">Y1</tspan></text>
+			<text xml:space="preserve" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;" x="40.939453" y="88.086807" id="text3573"><tspan id="tspan3575" x="40.939453" y="88.086807">X2</tspan></text>
+			<text xml:space="preserve" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;" x="41.02734" y="113.10991" id="text3704"><tspan id="tspan3706" x="41.02734" y="113.10991">Y2</tspan></text>
+			<text xml:space="preserve" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;" x="40.652344" y="138.90642" id="text3714"><tspan id="tspan3716" x="40.652344" y="138.90642">A2</tspan></text>
+			<text xml:space="preserve" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;" x="40.734375" y="163.92949" id="text3724"><tspan id="tspan3726" x="40.734375" y="163.92949">A3</tspan></text>
+			<text id="text3742" y="64.441093" x="184.41992" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="64.441093" x="184.41992" id="tspan4736">A1</tspan></text>
+			<text id="text3752" y="89.278427" x="184.41992" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="89.278427" x="184.41992" id="tspan3754">A4</tspan></text>
+			<text xml:space="preserve" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;" x="184.41992" y="114.11578" id="text3762"><tspan id="tspan3764" x="184.41992" y="114.11578">X4</tspan></text>
+			<text xml:space="preserve" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;" x="184.41992" y="138.95313" id="text3772"><tspan id="tspan3774" x="184.41992" y="138.95313">Y4</tspan></text>
+			<text xml:space="preserve" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;" x="183.91602" y="164.4848" id="text3782"><tspan id="tspan3784" x="183.91602" y="164.4848">X3</tspan></text>
+			<text xml:space="preserve" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;" x="184.41992" y="189.31628" id="text3792"><tspan id="tspan3794" x="184.41992" y="189.31628">Y3</tspan></text>
+			<path style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker:none;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate" id="path4055" d="M 15,0 A 5,5 0 1 1 5,6.1230318e-16 A 5,5 0 1 1 15,-1.2246064e-15 z" transform="matrix(0,1,-1,0,75,10)"/>
+			<text id="text3841" y="190.16757" x="40.939453" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;" xml:space="preserve"><tspan y="190.16757" x="40.939453" id="tspan3843">GND</tspan></text>
+			<text xml:space="preserve" style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" x="170.07785" y="190.14911" id="text4730"><tspan id="tspan4732" x="170.07785" y="190.14911">8</tspan></text>
+			<path id="path6938" d="M 160,60 L 135,60 L 123,48 L 105,48" style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+			<g id="g6967" transform="matrix(0,0.5,-0.5,0,108.30053,26.967173)">
+				<path id="path5526" d="M 16.065654,86.60106 L 16.065654,66.60106 L 6.065654,56.60106 L 6.065654,26.60106 L 21.065654,26.60106" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"/>
+				<path id="path5528" d="M 66.065654,86.60106 L 66.065654,66.60106 L 76.065654,56.60106 L 76.065654,26.60106 L 61.065654,26.60106" style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"/>
+				<path id="path6129" d="M 26.065653,26.601052 L 53.98778,15.92014" style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+				<path transform="matrix(1.6,0,0,1.6,6.065654,-55.79894)" d="M 15,51.5 A 2.5,2.5 0 1 1 10,51.5 A 2.5,2.5 0 1 1 15,51.5 z" id="path5536" style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+				<path transform="matrix(1.6,0,0,1.6,36.065654,-55.79894)" d="M 15,51.5 A 2.5,2.5 0 1 1 10,51.5 A 2.5,2.5 0 1 1 15,51.5 z" id="path6936" style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+				<path style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" d="M 85,34 L 105,34 L 105,61 L 85,61 L 85,34 z" id="rect6940" transform="matrix(0,-2,2,0,-53.934346,216.60106)"/>
+				<path style="opacity:1;fill:#888a85;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:8, 4;stroke-dashoffset:0;stroke-opacity:1" d="M 42.065654,6.60106 L 42.065654,36.60106" id="path6999"/></g>
+			<use x="0" y="0" href="#g6967" id="use6983" transform="translate(0,50)" width="220" height="220"/>
+			<path style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" d="M 105,98 L 109,98 L 109,135 L 70,135 L 65,135" id="path6985"/>
+			<use x="0" y="0" href="#g6967" id="use6987" transform="matrix(-1,0,0,1,225,125)" width="220" height="220"/>
+			<path style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" d="M 120,173 L 103,173 L 90,160 L 65,160" id="path6989"/>
+			<use x="0" y="0" href="#g6967" id="use6991" transform="matrix(-1,0,0,1,225,75)" width="220" height="220"/>
+			<path style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" d="M 120,123 L 116,123 L 116,85 L 160,85" id="path6993"/>
+			<text xml:space="preserve" style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" x="95.375" y="200" id="text6995"><tspan id="tspan6997" x="95.375" y="200">4066</tspan></text>
+			<text xml:space="preserve" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" x="18.25" y="107.75" id="text7772"><tspan id="tspan7774"/></text>
+			<text xml:space="preserve" style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;" x="208" y="181.5" id="text7776"><tspan id="tspan7778" x="208" y="181.5"/></text></g>
+		<rect id="cover" width="220" height="220" fill="white" fill-opacity="0" style="cursor: default;" vector-effects="non-scaling-stroke" stroke-width="6" stroke-opacity=".5"/></g><g transform="matrix(1 0 0 1 273 2.99999)" parentid="component270">
+        <rect x="59" y="19" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="-1" y="19" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="-1" y="69" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="-1" y="39" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <ellipse cx="47" cy="20" rx="2" ry="2" fill="none" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <path d="M 34.61 13.87 C 34.75 13.76 36.52 12.39 38.55 10.82 C 40.57 9.25 42.23 7.95 42.22 7.94 C 42.22 7.92 40.13 8.15 37.58 8.44 C 35.03 8.73 32.81 8.98 32.63 9 L 32.32 9.03 L 33.34 11.55 L 34.36 14.06 L 34.61 13.87 Z" fill="#000000" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="12" cy="20" rx="2" ry="2" fill="none" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <path d="M 50.5 20 L 59 20" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1 20 L 9.5 20" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 28.74 16.47 L 28.74 18.47" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 28.74 20.47 L 28.74 22.47" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 28.74 24.47 L 28.74 26.47" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 28.74 28.47 L 28.74 30.47" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 34 35 L 34 74 L 23 74 L 23 35 Z" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 35 40 C 36.1 39.99 37 41.33 37 42.99 C 37 44.65 36.11 46 35.01 46 C 35.01 46 35.01 46 35.01 46" fill="none" stroke="#000000" stroke-width="2.38" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 35 52 C 36.1 51.99 37 53.33 37 54.99 C 37 56.65 36.11 58 35.01 58 C 35.01 58 35.01 58 35.01 58" fill="none" stroke="#000000" stroke-width="2.38" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 35 64 C 36.1 63.99 37 65.33 37 66.99 C 37 68.65 36.11 69.99 35.01 70 C 35.01 70 35.01 70 35.01 70" fill="none" stroke="#000000" stroke-width="2.38" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 22 58 C 20.9 57.99 20 59.33 20 60.99 C 20 62.65 20.89 64 21.99 64 C 21.99 64 21.99 64 21.99 64" fill="none" stroke="#000000" stroke-width="2.38" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 22 46 C 20.9 45.99 20 47.33 20 48.99 C 20 50.65 20.89 52 21.99 52 C 21.99 52 21.99 52 21.99 52" fill="none" stroke="#000000" stroke-width="2.38" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 22 46 L 35 46" fill="none" stroke="#000000" stroke-width="2.19" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 22 58 L 35 58" fill="none" stroke="#000000" stroke-width="2.19" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 22 70 L 35 70" fill="none" stroke="#000000" stroke-width="2.19" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1 70 L 21 70" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1 40 L 21 40" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="middle" font-size="12px">
+            <text x="5" y="36.24">
+                +
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="middle" font-size="14px">
+            <text x="4.53" y="64.98">
+                -
+            </text>
+        </g>
+        <path d="M 14.21 19.08 L 34.74 10.95" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="-21" y="0" width="21" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+
+        <rect x="0" y="0" id="cover" width="54" height="80" fill="white" fill-opacity="0" style="cursor: default;" vector-effects="non-scaling-stroke" stroke-width="6" stroke-opacity=".5"/></g><g transform="matrix(1 0 0 1 6.015 78.445)" parentid="component296">
+        <rect x="-1" y="29" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="59" y="29" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="-1" y="59" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <path d="M 1 30 L 16.18 30" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 31.82 40.38 L 31.82 60 L 11.82 60" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 46.45 30.05 L 17.77 50.39 L 17.86 9.69 L 46.41 30.03" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 46 30 L 59 30" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 24.73 35.18 L 28.84 25.18 L 33.75 25.18" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 31.78 25.27 L 27.94 35.18 L 22.67 35.18" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1 60 L 17.21 60" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="-14" y="0" width="14" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+            <rect x="0" y="5" id="cover" width="60" height="55" fill="white" fill-opacity="0" style="cursor: default;" vector-effects="non-scaling-stroke" stroke-width="6" stroke-opacity=".5"/></g><g transform="matrix(1 0 0 1 84 75)" parentid="component418">
+        <rect x="-1" y="19" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="49" y="9" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="49" y="29" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="-1" y="69" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="-1" y="39" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="7px">
+            <text x="2.2" y="67">
+                SEL0
+            </text>
+        </g>
+        <path d="M 1 20 L 14 20" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 40 0 L 40 60 L 15 50 L 15 10 L 40 0" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 28 56 L 28 70 L 15 70" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="9px">
+            <text x="32" y="10">
+                0
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="9px">
+            <text x="32" y="30">
+                1
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="9px">
+            <text x="18" y="20">
+                A
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="9px">
+            <text x="18" y="40">
+                OE
+            </text>
+        </g>
+        <path d="M 41 10 L 49 10" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 41 30 L 49 30" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1 70 L 14 70" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="12" cy="40" rx="2.48" ry="2.48" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <path d="M 1 40 L 8 40" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+
+        <rect x="-14" y="0" width="14" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+
+    <rect x="0" y="0" id="cover" width="43" height="70" fill="white" fill-opacity="0" style="cursor: default;" vector-effects="non-scaling-stroke" stroke-width="6" stroke-opacity=".5"/></g><g transform="matrix(1 0 0 1 162 80)" parentid="component485">
+        <rect x="69" y="-1" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="69" y="59" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="19" y="-1" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="19" y="59" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <path d="M 24.23 6 C 11.09 6.14 0.48 16.83 0.48 30 C 0.48 43.25 11.23 54 24.48 54 L 60.04 54 C 60.13 54 60.21 54 60.29 54 C 73.43 53.86 84.04 43.17 84.04 30 C 84.04 16.83 73.43 6.14 60.29 6 L 60.04 6 L 24.23 6 Z" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 55 35 L 70 45" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 55 25 L 70 15" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 55 13 L 55 47" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 12 37.74 C 34 37.74 28 37.74 28 37.74" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 19.86 37.46 C 19.86 37.46 19.86 37.46 12 22.74 C 27.72 22.74 27.72 22.74 27.72 22.74 Z" fill="#000000" stroke="#000000" stroke-width="1.49" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 70 1 L 70 14" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 70 46 L 70 59" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 20 1 L 20 59" fill="#000000" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 44.14 34.94 L 39.89 39.18 L 46.96 42.01 Z" fill="#000000" stroke="#000000" stroke-linejoin="round" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 35.7 30.65 L 44.18 39.14" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 44.14 23.61 L 39.89 27.86 L 46.96 30.69 Z" fill="#000000" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 35.65 19.37 L 44.14 27.86" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 65.05 38 L 61.71 42.98 L 69.19 44.39 Z" fill="#000000" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="-14" y="0" width="14" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <rect x="0" y="0" id="cover" width="73" height="50" fill="white" fill-opacity="0" style="cursor: default;" vector-effects="non-scaling-stroke" stroke-width="6" stroke-opacity=".5"/></g><g transform="matrix(1 0 0 1 278.81 84.1)" parentid="component527">
+        <rect x="19" y="-1" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="19" y="59" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <ellipse cx="20" cy="30" rx="18.99984629" ry="18.99984629" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <path d="M 20 1 L 20 10" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 20 50 L 20 59" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 5.43 30 C 20 -5.08 20.05 64.74 34.31 30.12" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 22.82 6.31 L 29.32 6.31" fill="none" stroke="#000000" stroke-width="1.29" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 25.99 3.04 L 25.99 9.84" fill="none" stroke="#000000" stroke-width="1.39" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="-13" y="0" width="13" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+<rect x="0" y="5" id="cover" width="35" height="52" fill="white" fill-opacity="0" style="cursor: default;" vector-effects="non-scaling-stroke" stroke-width="6" stroke-opacity=".5"/></g><g transform="matrix(0.53 0 0 0.53 12 170)" parentid="component562">
+        <rect x="-1" y="19" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="59" y="19" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="59" y="39" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="59" y="59" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="59" y="79" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="59" y="99" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="-1" y="99" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="-1" y="79" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="-1" y="59" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="-1" y="39" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <path d="M 1 20 L 7 20" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 53 20 L 59 20" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 53 40 L 59 40" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 53 60 L 59 60" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 53 80 L 59 80" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 53 100 L 59 100" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1 100 L 7 100" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1 80 L 7 80" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1 60 L 7 60" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1 40 L 7 40" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="8.05" y="9.15" width="43.9" height="102.8" fill="#ffffff" stroke="#000000" stroke-width="1.1" pointer-events="none"/>
+        <rect x="15" y="15" width="30" height="10" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <rect x="35" y="15" width="10" height="10" fill="#000000" stroke="#000000" pointer-events="none"/>
+        <rect x="15" y="35" width="30" height="10" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <rect x="35" y="35" width="10" height="10" fill="#000000" stroke="#000000" pointer-events="none"/>
+        <rect x="15" y="55" width="30" height="10" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <rect x="35" y="55" width="10" height="10" fill="#000000" stroke="#000000" pointer-events="none"/>
+        <rect x="15" y="75" width="30" height="10" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <rect x="35" y="75" width="10" height="10" fill="#000000" stroke="#000000" pointer-events="none"/>
+        <rect x="15" y="95" width="30" height="10" fill="#ffffff" stroke="#000000" pointer-events="none"/>
+        <rect x="35" y="95" width="10" height="10" fill="#000000" stroke="#000000" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="middle" font-size="6px">
+            <text x="11" y="17.16">
+                1
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="middle" font-size="6px">
+            <text x="11" y="37.05">
+                2
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="middle" font-size="6px">
+            <text x="11.05" y="57">
+                3
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="middle" font-size="6px">
+            <text x="11" y="77.07">
+                4
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" text-anchor="middle" font-size="6px">
+            <text x="11.05" y="97">
+                5
+            </text>
+        </g>
+        <rect x="-13" y="0" width="13" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+<rect x="0" y="5" id="cover" width="50" height="115" fill="white" fill-opacity="0" stroke="none" style="cursor: default;"/></g><g transform="matrix(1 0 0 1 76 158)" parentid="component589">
+        <rect x="49" y="59" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="49" y="9" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="-1" y="59" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="-1" y="9" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <path d="M 33.14 20 C 30.11 20.01 27.65 17.78 27.64 15.01 C 27.63 12.25 30.08 10.01 33.1 10 C 33.11 10 33.11 10 33.12 10" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33 10 L 35 10" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33 20 L 35 20" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33.14 30 C 30.11 30.01 27.65 27.78 27.64 25.01 C 27.63 22.25 30.08 20.01 33.1 20 C 33.11 20 33.11 20 33.12 20" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33 20 L 35 20" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33 30 L 35 30" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33.14 40 C 30.11 40.01 27.65 37.78 27.64 35.01 C 27.63 32.25 30.08 30.01 33.1 30 C 33.11 30 33.11 30 33.12 30" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33 30 L 35 30" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33 50 L 35 50" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33.14 60 C 30.11 60.01 27.65 57.78 27.64 55.01 C 27.63 52.25 30.08 50.01 33.1 50 C 33.11 50 33.11 50 33.12 50" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33 50 L 35 50" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33 60 L 35 60" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 36 60 L 49 60" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 36 10 L 49 10" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 16.86 20 C 19.89 20.01 22.35 17.78 22.36 15.01 C 22.37 12.25 19.92 10.01 16.9 10 C 16.89 10 16.89 10 16.88 10" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 17 10 L 15 10" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 17 20 L 15 20" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 16.86 30 C 19.89 30.01 22.35 27.78 22.36 25.01 C 22.37 22.25 19.92 20.01 16.9 20 C 16.89 20 16.89 20 16.88 20" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 17 20 L 15 20" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 17 30 L 15 30" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 16.86 40 C 19.89 40.01 22.35 37.78 22.36 35.01 C 22.37 32.25 19.92 30.01 16.9 30 C 16.89 30 16.89 30 16.88 30" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 17 30 L 15 30" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 17 50 L 15 50" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 16.86 60 C 19.89 60.01 22.35 57.78 22.36 55.01 C 22.37 52.25 19.92 50.01 16.9 50 C 16.89 50 16.89 50 16.88 50" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 17 50 L 15 50" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 17 60 L 15 60" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1 60 L 14 60" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1 10 L 14 10" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33 40 L 35 40" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33.14 50 C 30.11 50.01 27.65 47.78 27.64 45.01 C 27.63 42.25 30.08 40.01 33.1 40 C 33.11 40 33.11 40 33.12 40" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33 40 L 35 40" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 33 50 L 35 50" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 17 40 L 15 40" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 17 40 L 15 40" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 17 50 L 15 50" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 16.86 50 C 19.89 50.01 22.35 47.78 22.36 45.02 C 22.37 42.25 19.92 40.01 16.9 40 C 16.89 40 16.89 40 16.88 40" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 41.19 21.86 C 14.3 47.75 8.03 54.1 8.03 54.1" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 42.02 24.7 C 42.11 24.56 43.27 22.64 44.59 20.44 C 45.92 18.25 46.99 16.44 46.98 16.43 C 46.97 16.42 45.11 17.38 42.83 18.57 C 40.56 19.76 38.58 20.8 38.42 20.88 L 38.14 21.02 L 40 23 L 41.86 24.98 L 42.02 24.7 Z" fill="#000000" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="-12" y="0" width="12" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+<rect x="0" y="5" id="cover" width="50" height="50" fill="white" fill-opacity="0" stroke="none" style="cursor: default;"/></g><g transform="matrix(1 0 0 1 155 156)" parentid="component578">
+        <rect x="69" y="19" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="9" y="19" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="69" y="59" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="9" y="59" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="9" y="39" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="69" y="39" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <path d="M 39.16 12.16 L 39.16 0.16" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 31.16 0.16 L 46.16 0.16" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="6px">
+            <text x="67.97" y="52.4">
+                N
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="6px">
+            <text x="65.45" y="32.56">
+                PE'
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="6px">
+            <text x="67.79" y="12.71">
+                L'
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="6px">
+            <text x="8.31" y="52.4">
+                N
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="6px">
+            <text x="6.39" y="32.56">
+                PE
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="6px">
+            <text x="8.68" y="12.71">
+                L
+            </text>
+        </g>
+        <path d="M 59.5 20 C 59.5 21.1 58.6 22 57.5 22 C 56.4 22 55.5 21.1 55.5 20 C 55.5 18.9 56.4 18 57.5 18 C 58.6 18 59.5 18.9 59.5 20 Z" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 44.61 13.87 C 44.75 13.76 46.52 12.39 48.55 10.82 C 50.57 9.25 52.23 7.95 52.22 7.94 C 52.22 7.92 50.13 8.15 47.58 8.44 C 45.03 8.73 42.81 8.98 42.63 9 L 42.32 9.03 L 43.34 11.55 L 44.36 14.06 L 44.61 13.87 Z" fill="#000000" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 24.5 20 C 24.5 21.1 23.6 22 22.5 22 C 21.4 22 20.5 21.1 20.5 20 C 20.5 18.9 21.4 18 22.5 18 C 23.6 18 24.5 18.9 24.5 20 Z" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 60.5 20 L 69 20" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 11 20 L 19.5 20" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 59.5 60 C 59.5 61.1 58.6 62 57.5 62 C 56.4 62 55.5 61.1 55.5 60 C 55.5 58.9 56.4 58 57.5 58 C 58.6 58 59.5 58.9 59.5 60 Z" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 44.61 53.87 C 44.75 53.76 46.52 52.39 48.55 50.82 C 50.57 49.25 52.23 47.95 52.22 47.94 C 52.22 47.92 50.13 48.15 47.58 48.44 C 45.03 48.73 42.81 48.98 42.63 49 L 42.32 49.03 L 43.34 51.55 L 44.36 54.06 L 44.61 53.87 Z" fill="#000000" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 24.5 60 C 24.5 61.1 23.6 62 22.5 62 C 21.4 62 20.5 61.1 20.5 60 C 20.5 58.9 21.4 58 22.5 58 C 23.6 58 24.5 58.9 24.5 60 Z" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 60.5 60 L 69 60" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 11 60 L 19.5 60" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 39 16.5 L 39 18.5" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 39 20.5 L 39 22.5" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 39 24.5 L 39 26.5" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 39 48.5 L 39 50.5" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 39 28.22 L 39 30.22" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 39 32.22 L 39 34.22" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 39 36.22 L 39 38.22" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 39 40.22 L 39 42.22" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 11 40 L 62.2 40" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 39 44.5 L 39 46.5" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 60.5 40 L 69 40" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 24.31 19.03 L 45.52 10.54" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 24.28 59.23 L 45.87 50.52" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="-13" y="0" width="13" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+<rect x="0" y="5" id="cover" width="70" height="57" fill="white" fill-opacity="0" stroke="none" style="cursor: default;"/></g><g transform="matrix(0.63 0 0 0.63 266 159)" parentid="component529">
+        <rect x="-1" y="49" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="119" y="49" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="119" y="49" width="2" height="2" fill="#000000" stroke="none" pointer-events="none"/>
+        <rect x="19.79" y="9.99" width="80" height="80" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-size="10px">
+            <text x="37.73" y="23.92">
+                Cont Freq
+            </text>
+        </g>
+        <path d="M 29.79 69.99 L 31.79 63.99 L 33.79 59.99 L 35.79 59.99 L 37.79 63.99 L 39.79 63.99 L 41.79 59.99 L 45.79 53.99 L 47.79 47.99 L 51.79 41.99 L 55.79 39.99 L 59.79 39.99" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 89.79 69.99 L 87.79 63.99 L 85.79 59.99 L 83.79 59.99 L 81.79 63.99 L 79.79 63.99 L 77.79 59.99 L 73.79 53.99 L 71.79 47.99 L 67.79 41.99 L 63.79 39.99 L 59.79 39.99" fill="none" stroke="#000000" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1 50 L 19 50" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 101 50 L 119 50" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="-13" y="0" width="13" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+<rect x="0" y="5" id="cover" width="106" height="83" fill="white" fill-opacity="0" stroke="none" style="cursor: default;"/></g></g></g><image id="imgDragArrow" href="Images/ImgDragArrow.png" class="dragTargetObj" width="25" height="25" x="-12.5" y="-12.5" style="visibility: hidden; cursor: nw-resize;"/></svg>
