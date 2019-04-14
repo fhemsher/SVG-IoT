@@ -4,7 +4,7 @@ function trackDrawPath()
      var cw = addElemPathCw
 
     if
-    (ActiveElem==null&&DrawPathStart==true&&cw.dragAddPathCheck.checked==false)
+    (ActiveElem==null&&DrawPathStart==true)
     {
         DrawX.style("display", "inline")
         DrawX.attr("transform", "translate("+SVGx+" "+SVGy+")")
@@ -195,8 +195,7 @@ function placeDrawPath()
         cw.drawPathCancelButton.disabled = false
 
         DrawPath = true
-        cw.dragAddPathCheck.checked=false
-    cw.dragAddPathCheck.disabled=true
+    
 }
 
 var DragCircleG;
@@ -258,11 +257,11 @@ function clickNextPathPoint()
     if(cw.drawPathRightAngleCheck.checked==true)
     {
       if(cw.drawPathPipe3DCheck.checked==true &&Point==1)
-      {
-         ActiveElem.attr("filter", null)
-          ActiveElem.attr("stroke-linejoin", null)
+     {
+          activeElem.removeAttribute("filter")
+        activeElem.removeAttribute("stroke-linejoin")
 
-      }
+     }
         var pathSegs = activeElem.pathSegList
         var segs = pathSegs.numberOfItems
         var lastSeg = pathSegs.getItem(segs-1)

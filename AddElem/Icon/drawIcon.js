@@ -2,6 +2,20 @@ function closeDrawIcon()
 {
     if(addElemIconViz==true)
     {
+
+        if(ActiveElem&&EditIcon==false)
+        {       if(document.getElementById(ActiveIconId)&&document.getElementById(ActiveIconId).parentNode==domActiveElemG )
+            domActiveElemG.removeChild(document.getElementById(ActiveIconId))
+
+        }
+        if(EditIcon&&IconDeleted==false)
+        {
+
+         var elemObjEdit = document.getElementById(DrawIconEditId)
+        elemObjEdit.style.visibility = "visible"
+        domActiveElemG.removeChild(document.getElementById("activeElem"))
+
+        }
         DrawX.style("display", "none")
         DrawX.attr("stroke", "violet")
         closeIframe("addElemIcon");
@@ -139,6 +153,8 @@ var IconDeleted = false
 function trackDrawIcon()
 {
     var cw = addElemIconCw
+
+    console.log(cw.PlantUnicode)
     if(cw.PlantUnicode)
     {
         if(ActiveElem==null&&EditIcon==false && IconDeleted==false)
@@ -493,7 +509,7 @@ function finishEditIcon()
             domElemG.insertBefore(finishedElem, EditThisIcon)
             domElemG.removeChild(EditThisIcon)
 
-
+        EditIcon=false
 
 
 

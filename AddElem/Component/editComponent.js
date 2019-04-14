@@ -67,7 +67,7 @@ EditThisComponent = null
         SetComponentCenter=[]
 
         EditThisComponent = elemObjEdit
-
+         console.log(EditThisComponent)
         DrawComponentEditId = elemObjEdit.getAttribute("id")//---used in cancel edit--
 
         ActiveElem = null
@@ -88,6 +88,7 @@ EditThisComponent = null
             setEditComponent()
 
     }
+    /*
     if(isRightMB&&ZoomDrawing==true ) //---zoom drag
     {
         mySVG.setAttribute("onmousedown", "startDragZoom(evt)")
@@ -98,6 +99,7 @@ EditThisComponent = null
         var dragTarget=evt.target.parentNode
 
         var classed=dragTarget.getAttribute("class")
+        console.log(dragTarget)
         dragTarget.setAttribute("class", "dragTargetObj")
         dragTarget.removeAttribute("onmousedown")
         dragTarget.lastChild.setAttribute("style","cursor:move")
@@ -106,7 +108,7 @@ EditThisComponent = null
 
         ZoomDraggedElems.push([dragTarget,"editDrawComponent("+dragTarget.id+",evt)",classed])
     }
-
+  */
 }
 
 var EditComponentObj
@@ -282,7 +284,7 @@ function cancelDrawEditComponent()
      activeElem = null
     ActiveElem = null
     EditComponentObj = null
-     DrawComponentEditId=null
+    // DrawComponentEditId=null
 
 setEditComponent()
 
@@ -435,8 +437,8 @@ var ComponentDeleted = false
 //---button---
 function removeCurrentDrawComponent()
 {
-
-       domActiveElemG.removeChild(EditComponentObj)
+       if(EditComponentObj&&EditComponentObj.parentNode==domActiveElemG)
+        domActiveElemG.removeChild(EditComponentObj)
     var elemObjEdit = document.getElementById(DrawComponentEditId)
     domElemG.removeChild(elemObjEdit)
     ComponentDeleted = true

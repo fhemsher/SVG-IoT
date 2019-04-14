@@ -208,7 +208,7 @@ function closeComponentTable()
         var rects=component.getElementsByTagName("rect")
         var coverRect=rects[rects.length-1]
         coverRect.setAttribute('onmousedown',"editDrawComponent("+component.id+",evt)")
-        component.removeAttribute("class")
+        component.setAttribute("class","elemComponent")
         coverRect.style.cursor="default"
     }
    mySVG.removeAttribute("onmousedown")
